@@ -358,10 +358,10 @@ Profile: proxy
 
 Прокси-клиенты на различные устройства и систем:
 
-- на iPhone - `Streisand`, `FoXray`, `Shadowrocket`, `Sockswitch-Shadowsocks Client`, `Potatso Lite`
+- на iPhone - `FoXray`, `Shadowrocket`, `Sockswitch-Shadowsocks Client`, `Potatso Lite`
 - на Windows - можно использовать браузерные расширения, например, `ZeroOmega--Proxy SwitchyOmega V3` (алгоритм настройки [здесь](#расширения) - единственное отличие: нужно вписывать не `127.0.0.1`, а ip устройства с запущенным ByeByeDPI) или использовать приложения: [nekoray](https://github.com/MatsuriDayo/nekoray/), proxifier, [proxifyre](https://github.com/wiresock/proxifyre), [sockscap64](https://www.sockscap64.com/homepage/) (для старых Windows).
-- на MacBook - FoXray, Streisand, [V2RayXS](https://github.com/tzmax/V2RayXS) (для старых маков), [nekoray](https://github.com/Mahdi-zarei/nekoray).
-- на другое Android-устройство - [nekobox](https://github.com/MatsuriDayo/NekoBoxForAndroid), proxifier for Android, [SocksDroid](https://github.com/bndeff/socksdroid) (требуется Android 5.0+) , для старых версий Андроид ProxyDroid (требуется рут).
+- на MacBook - FoXray, [V2RayXS](https://github.com/tzmax/V2RayXS) (для старых маков), [nekoray](https://github.com/Mahdi-zarei/nekoray).
+- на другое Android-устройство - [nekobox](https://github.com/MatsuriDayo/NekoBoxForAndroid), proxifier for Android, [SocksDroid](https://github.com/bndeff/socksdroid) (требуется Android 5.0+), [SocksTun](https://github.com/heiher/sockstun), для старых версий Андроид ProxyDroid (требуется рут).
 
 ## <a id="youtube-autostart">Автозапуск ByeByeDPI при запуске YouTube</a>
 
