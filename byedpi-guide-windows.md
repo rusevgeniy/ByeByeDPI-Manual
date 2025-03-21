@@ -10,7 +10,7 @@
 
 Строку которая начинается на `set svc_bin="\"%cd%\ciadpi.exe\"` меняем: удаляем символы внутри  кавычек, и вместо них вписываем ту стратегию, которая работает на вашем Android-устройстве. Должно получиться примерно так:
 
-<img src="Pasted image 20250321232408.png" width="700">
+<img src="images/Pasted image 20250321232408.png" width="700">
 
 Далее в блокноте файл -> сохранить.
 
@@ -18,7 +18,7 @@ service_install пкм -> запуск от имени администрато�
 Выйдет окно терминала, нажать на пробел. В конце должно выйти так, и окно исчезнет после нажатия пробела.
 
 
-<img src="Pasted image 20250321232617.png" width="700">
+<img src="images/Pasted image 20250321232617.png" width="700">
 
 Можно использовать [Proxy SwitchyOmega 3](https://chromewebstore.google.com/detail/proxy-switchyomega-3-zero/pfnededegaaopdmhkdmcofjmoldfiped?hl=ru&utm_source=ext_sidebar) [FoxyProxy](https://chromewebstore.google.com/detail/foxyproxy/gcknhkkoolaabfmlnjonogaaifnjlfnp?hl=ru&utm_source=ext_sidebar) или  для Chromium-подобных браузеров. Или [ZeroOmega--Proxy SwitchyOmega V3](https://addons.mozilla.org/ru/firefox/addon/zeroomega/?utm_source=addons.mozilla.org&utm_medium=referral&utm_content=search) для Firefox.
 Настройка идентична [настройке](features.md#расширения) на телефоне.
@@ -26,7 +26,7 @@ service_install пкм -> запуск от имени администрато�
 C сайта браузера [Mozilla Firefox](https://www.mozilla.org/ru/firefox/download/thanks/) качаем и  устанавливаем его.
 Открываем , настройки, опускаемся в самый низ, Настройка сети, Настроить.
 
-<img src="Pasted image 20250321233320.png" width="700">
+<img src="images/Pasted image 20250321233320.png" width="700">
 
 Жмём ок, и всё работает.
 
