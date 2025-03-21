@@ -391,8 +391,10 @@ Profile: proxy
 <img src="images/Pasted image 20250302200632.png" width="200">
 
 После переходим в настройки -> фильтрация -> сеть -> прокси. Его врубаем, а после вводим те же значения прокси, которые указаны у вас в ByeByeDPI, обязательно в режиме SOCKS5.
-<img src="images/Pasted image 20250302201013.png" width="200"> <img src="images/Pasted image 20250302201041.png" width="200"><img src="images/Pasted image 20250302201112.png" width="200">
 
+<img src="images/Pasted image 20250302201013.png" width="200">
+<img src="images/Pasted image 20250302201041.png" width="200">
+<img src="images/Pasted image 20250302201112.png" width="200">
 <img src="images/Pasted image 20250302201138.png" width="200">
 
 Ну и соответственно включаем работу прокси в AdGuard.
