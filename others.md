@@ -3,8 +3,8 @@
 1. [Клиенты YouTube](#клиенты)
 2. [Про DNS](#dns)
 3. ["Стандартный редактор" - нужен ли?](#ui-editor)
-4. [Универсальная стратегия](#universal)
-5. [Другие варианты ускорения серверов](#other-options)
+4. [Другие варианты ускорения серверов](#other-options)
+5. [Универсальная стратегия](#universal)
 
 ## <a id="клиенты">Клиенты YouTube</a>
 
@@ -51,13 +51,53 @@
 
 "Стандартный редактор" **не нужен**. Тыкать наугад - плохая тактика.
 
-## <a id="universal">Универсальная стратегия</a>
-
-Если вам показалась сложной настройка или у вас ничего не работает - используйте VPN. Или смотрите VK Видео и Rutube - это отличные платформы.
-
 ## <a id="other-options">Другие варианты ускорения серверов</a>
 
-При помощи домашнего прокси-сервера:
+### Модули Magisk для Android (нужен root)
+
+- [zapret-magisk](https://github.com/ImMALWARE/zapret-magisk) от ImMALWARE
+- [ZDT&D Magisk Module](https://github.com/GAME-OVER-op/ZDT-D) от GAME-OVER-op
+
+> [!TIP]
+> ByeDPI или zapret? Если вы хотите, чтобы устройства внутри локальной сети могли подключаться к вашему компьютеру - используйте ByeDPI и читайте [инструкцию](features.md#раздача) по предоставлению доступа к ByeByeDPI - действия почти идентичные.
+
+### Простые варианты для ПК
+
+#### Сборки **zapret** без интерфейса
+
+- [YTDisBystro](https://ntc.party/t/%D1%81%D0%B1%D0%BE%D1%80%D0%BA%D0%B0-ytdisbystro-%D0%BD%D0%B0-%D0%BE%D1%81%D0%BD%D0%BE%D0%B2%D0%B5-zapret-%D0%B4%D0%BB%D1%8F-windows-%D0%BE%D0%B1%D1%81%D1%83%D0%B6%D0%B4%D0%B5%D0%BD%D0%B8%D0%B5/13251) от KDS (подходит для 32-х битных систем, Windows 7 в том числе)
+- [zapret-discord-youtube](https://github.com/Flowseal/zapret-discord-youtube) от Flowseal (простое решение без излишеств)
+
+#### Приложения с графическим интерфейсом
+
+- [goodbyeDPI-UI](https://github.com/Storik4pro/goodbyeDPI-UI) от Storik4pro (комбайн для zapret, ByeDPI и GoodbyeDPI)
+- [ByeDPI Manager](https://github.com/romanvht/bdmanager/releases) от romanvht
+
+### Оригинальные утилиты
+
+- [zapret](https://github.com/bol-van/zapret) от болвана (для Windows / Linux / OpenWrt / Entware / Mac)
+- [ByeDPI](https://github.com/hufrea/byedpi) от hufrea (для Windows - в теории версия [byedpi-x86-cygwin.zip](https://github.com/hufrea/byedpi/issues/219#issuecomment-2559707231) способна работать даже на Windows XP  / Linux / OpenWrt / Mac)
+- [youtubeUnblock](https://github.com/Waujito/youtubeUnblock) от Waujito (для Linux / OpenWrt / Entware)
+
+#### Инструкции к оригинальным утилитам
+
+- [zapret](https://github.com/bol-van/zapret?tab=readme-ov-file#%D0%B1%D1%8B%D1%81%D1%82%D1%80%D1%8B%D0%B9-%D1%81%D1%82%D0%B0%D1%80%D1%82) для для Windows / Linux / OpenWrt
+- [zapret](https://github.com/bol-van/zapret/blob/master/docs/bsd.md) для Mac / BSD-систем
+- [zapret](https://www.youtube.com/watch?v=FdDC9R7gL-Y&t=53s) видеоинструкция для Linux
+- [ByeDPI](https://youtu.be/zlWMp8IlGCU?si=xZ-xAlts09Atugvq) видеоинструкция для Linux (скорее всего такой же принцип для Mac)
+
+### Решения для роутеров
+
+- [Инструкция](https://github.com/bol-van/zapret/blob/master/docs/quick_start.md) на оригинальный zapret (OpenWrt)
+- [Инструкция](https://github.com/Anonym-tsk/nfqws-keenetic) на nfqws (программа из состава zapret подходит для Keenetic / OpenWrt)
+- [Инструкция](https://habr.com/ru/articles/856312/) на ByeDPI (OpenWrt)
+- [Инструкция](https://habr.com/ru/articles/838452/) для мощных MikroTik
+
+### При помощи домашнего прокси-сервера:
 
 - [Решаем проблему устаревания кэширующих серверов. Смотрим на телевизоре. Не VPN](https://habr.com/ru/articles/870254/)
 - [Ускоряем кэш серверы YouTube. Не VPN](https://habr.com/ru/articles/871460/)
+
+## <a id="universal">Универсальная стратегия</a>
+
+Если вам показалась сложной настройка или у вас ничего не работает - используйте VPN. Или смотрите VK Видео и Rutube - это отличные платформы.
