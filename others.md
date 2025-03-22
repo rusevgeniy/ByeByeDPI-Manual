@@ -81,7 +81,14 @@
 
 #### Инструкции к оригинальным утилитам
 
-- [zapret](https://github.com/bol-van/zapret?tab=readme-ov-file#%D0%B1%D1%8B%D1%81%D1%82%D1%80%D1%8B%D0%B9-%D1%81%D1%82%D0%B0%D1%80%D1%82) для для Windows / Linux / OpenWrt
+> [!TIP]
+> На Mac проще всего запустить ByeDPI. Необходимо выполнить те же самые действия, как в этом [видео](https://youtu.be/zlWMp8IlGCU?si=xZ-xAlts09Atugvq).
+
+> [!CAUTION]
+> В ByeDPI нет подбора стратегий - найти рабочую стратегию необходимо самостоятельно (например, при помощи подбора в ByeByeDPI).
+
+- [zapret](https://github.com/bol-van/zapret?tab=readme-ov-file#%D0%B1%D1%8B%D1%81%D1%82%D1%80%D1%8B%D0%B9-%D1%81%D1%82%D0%B0%D1%80%D1%82) для Windows / Linux / OpenWrt
+- [ByeDPI](byedpi-guide-windows.md) для Windows
 - [zapret](https://github.com/bol-van/zapret/blob/master/docs/bsd.md) для Mac / BSD-систем
 - [zapret](https://www.youtube.com/watch?v=FdDC9R7gL-Y&t=53s) видеоинструкция для Linux
 - [ByeDPI](https://youtu.be/zlWMp8IlGCU?si=xZ-xAlts09Atugvq) видеоинструкция для Linux (скорее всего такой же принцип для Mac)
