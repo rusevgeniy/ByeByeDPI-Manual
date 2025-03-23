@@ -139,7 +139,7 @@ _Белый_ список - выбранные приложения **будут
 
 Чтобы экспортировать или импортировать настройки, зайдите в **_основные настройки ByeByeDPI_** (шестерёнка справа вверху):
 
-   - <img src="images/Screenshot_2025-02-25-21-04-04-667_io.github.romanvht.byedpi-edit.jpg" width="200">
+  - <img src="images/Screenshot_2025-02-25-21-04-04-667_io.github.romanvht.byedpi-edit.jpg" width="200">
 
 - Нажмите на три точки в верхнем правом углу
 
