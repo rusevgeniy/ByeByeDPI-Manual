@@ -270,7 +270,7 @@ _Белый_ список - выбранные приложения **будут
 Пример такой стратегии:
 `-Ku -a10 -An -Kt,h -H /storage/emulated/0/Android/data/io.github.romanvht.byedpi/files/domain.txt -s1 -q1 -Art -f-1 --md5sig -r1+s -An`
 
-### <a id="расширения">Расширение для браузера</a>
+### <a id="extension">Расширение для браузера</a>
 
 Другим вариантом может точечной маршрутизации будет использование прокси-расширения для браузера. В примере будет рассматриваться браузер `Firefox` с установленным расширением `ZeroOmega--Proxy SwitchyOmega V3`, но вы можете выбрать любое другое подобное расширение и любой другой браузер с поддержкой расширений.
 
@@ -420,7 +420,7 @@ Profile: proxy
 
 <img src="images/image-13.png" width="200">
 
-После этого ищите стратегию [аналогичным образом,](start.md#настройка) которым искали стратегию для YouTube.
+После этого ищите стратегию [аналогичным образом,](start.md#setting) которым искали стратегию для YouTube.
 
 > [!WARNING]
 > Если у всех стратегий 0% - скорее всего ресурс заблокирован по IP и ByeByeDPI здесь ничем не сможет помочь.
@@ -451,7 +451,7 @@ ggpht.com
 
 Домены для различных сервисов можно найти [здесь](https://www.netify.ai/resources/applications), в этом [репозитории](https://github.com/v2fly/domain-list-community) или на этом [сайте](https://iplist.opencck.org/).
 
-Если вы хотите сами выяснить какие домены используются - в этой [статье](https://itdog.info/analiziruem-trafik-i-opredelyaem-domeny-kotorye-ispolzuyut-sajty-i-prilozheniya/) подробно рассказывается про сниффинг трафика на различных устройствах и системах.
+Если вы хотите сами выяснить какие домены используются: в этой [статье](https://itdog.info/analiziruem-trafik-i-opredelyaem-domeny-kotorye-ispolzuyut-sajty-i-prilozheniya/) подробно рассказывается про сниффинг трафика на различных устройствах и системах.
 
 ## <a id="autoupdate">Автообновление</a>
 
