@@ -67,6 +67,7 @@
 
 - [YTDisBystro](https://ntc.party/t/%D1%81%D0%B1%D0%BE%D1%80%D0%BA%D0%B0-ytdisbystro-%D0%BD%D0%B0-%D0%BE%D1%81%D0%BD%D0%BE%D0%B2%D0%B5-zapret-%D0%B4%D0%BB%D1%8F-windows-%D0%BE%D0%B1%D1%81%D1%83%D0%B6%D0%B4%D0%B5%D0%BD%D0%B8%D0%B5/13251) от KDS (подходит для 32-х битных систем, Windows 7 в том числе)
 - [zapret-discord-youtube](https://github.com/Flowseal/zapret-discord-youtube) от Flowseal (простое решение без излишеств)
+- [zapret.installer](https://github.com/Snowy-Fluffy/zapret.installer) от Snowy-Fluffy. Сборка zapret для Линукс
 
 #### Приложения с графическим интерфейсом
 
