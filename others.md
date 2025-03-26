@@ -98,6 +98,7 @@
 
 - [Инструкция](https://github.com/bol-van/zapret/blob/master/docs/quick_start.md) на оригинальный zapret (OpenWrt)
 - [Инструкция](https://github.com/Anonym-tsk/nfqws-keenetic) на nfqws (программа из состава zapret подходит для Keenetic / OpenWrt)
+- [Инструкция](https://habr.com/ru/articles/834826/) на nfqws (программа из состава zapret подходит для Keenetic)
 - [Инструкция](https://habr.com/ru/articles/856312/) на ByeDPI (OpenWrt)
 - [Инструкция](https://habr.com/ru/articles/838452/) для мощных MikroTik
 
