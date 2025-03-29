@@ -245,9 +245,13 @@ nano ~/Library/LaunchAgents/com.user.byedpi.plist
 
 ```
 chmod 644 ~/Library/LaunchAgents/com.user.byedpi.plist
+```
 
+```
 launchctl load ~/Library/LaunchAgents/com.user.byedpi.plist
+```
 
+```
 launchctl start com.user.ciadpi
 ```
 
@@ -255,6 +259,9 @@ launchctl start com.user.ciadpi
 
 ```
 launchctl unload ~/Library/LaunchAgents/com.user.byedpi.plist
+```
+
+```
 rm ~/Library/LaunchAgents/com.user.byedpi.plist
 ```
 
