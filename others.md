@@ -7,7 +7,7 @@
      - [На Windows](#other-windows)
      - [На Linux](#other-linux)
      - [На роутере](#other-router)
-     - [На домашнем сервере (постоянно включенном ПК)](#other-home-server)
+     - [На домашнем сервере (постоянно включенном устройстве)](#other-home-server)
      - [На Mac](#other-mac)
 4. ["Стандартный редактор" - нужен ли?](#ui-editor)
 5. [Универсальная стратегия](#universal)
@@ -54,7 +54,7 @@
 ## <a id="other-options">Другие варианты ускорения серверов</a>
 
 > [!TIP]
-> ByeDPI или zapret? Если вы хотите, чтобы устройства внутри локальной сети могли подключаться к вашему компьютеру - используйте ByeDPI и читайте [инструкцию](features.md#раздача) по предоставлению доступа к ByeByeDPI - действия почти идентичные.
+> ByeDPI или zapret? Если вы хотите, чтобы устройства внутри локальной сети могли подключаться к вашему компьютеру - используйте ByeDPI и читайте [инструкцию](features.md#distribute) по предоставлению доступа к ByeByeDPI - действия почти идентичные.
 
 ### <a id="other-android">На Android</a>
 
@@ -136,7 +136,7 @@
 
 [ByeDPI](https://github.com/hufrea/byedpi) от hufrea
 
-[Видеоинструкция]((https://youtu.be/zlWMp8IlGCU?si=xZ-xAlts09Atugvq)) по установке ByeDPI *на Linux*
+[Видеоинструкция](https://youtu.be/zlWMp8IlGCU?si=xZ-xAlts09Atugvq) по установке ByeDPI *на Linux*
 
 Так как автор инструкции не имеет устройства с MacOS, он может только предположить, что вместо команд которые показаны автором видео необходимо использовать другие:
 
@@ -161,7 +161,7 @@ brew install git gcc make binutils
 - Склонируйте репозиторий
 
 ```
-git clone https://github.com/hufrea/byedpi](https://github.com/hufrea/byedpi
+git clone https://github.com/hufrea/byedpi.git
 ```
 
 - Перейдите в папку
