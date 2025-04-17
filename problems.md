@@ -175,7 +175,7 @@ discordcdn.com
 Адрес: 127.0.0.1  
 Порт: 1080
 ```
-- Скачайте `Firefox`, установите расширение `ZeroOmega--Proxy SwitchyOmega V3` и следуйте [инструкции](features.md#расширения). Чтобы было комфортнее смотреть YouTube можно скачать расширение `SponsorBlock`.
+- Скачайте `Firefox`, установите расширение `ZeroOmega--Proxy SwitchyOmega V3` и следуйте [инструкции](features.md#extension). Чтобы было комфортнее смотреть YouTube можно скачать расширение `SponsorBlock`.
 
 ## <a id="low-interest-rates">Очень низкие проценты (выше нуля)</a>
 
