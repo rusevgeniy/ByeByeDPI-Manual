@@ -92,7 +92,7 @@ _Белый_ список - выбранные приложения **будут
 ## <a id="my-list">Свой список команд (стратегий)</a>
 
 > [!IMPORTANT]
-> Использовать свой список стратегий нужно **только в случае**, если в результате автоподбора проценты низкие, но вы видите, что **нет** команд (стратегий) у которых самые большие проценты упёрлись в **_потолок_** (что делать в таком случае - читать [здесь](#одинаковый-процент)).
+> Использовать свой список стратегий нужно **только в случае**, если в результате автоподбора проценты низкие, но вы видите, что **нет** команд (стратегий) у которых самые большие проценты упёрлись в **_потолок_** (что делать в таком случае - читать [здесь](problems.md#у-команд-стратегий-одинаковый-невысокий-процент)).
 
 Результаты автоподбора вас не устроили.
 Вы где-то нашли команды (стратегии), но проверять каждую вручную очень глупое и утомительное занятие.
@@ -134,7 +134,7 @@ _Белый_ список - выбранные приложения **будут
 
   - <img src="images/Pasted image 20250227142826.png" width="200">
 
-- Дождитесь окончания подбора и действуйте дальше как при [стандартной настройке](start.md#настройка). Если подбор вылетает - решение здесь.
+- Дождитесь окончания подбора и действуйте дальше как при [стандартной настройке](start.md#настройка). Если подбор вылетает - решение [здесь](problems.md#вылетает-подбор).
 
 ## <a id="export-import">Экспорт и импорт настроек</a>
 
@@ -364,7 +364,7 @@ Profile: proxy
 Прокси-клиенты на различные устройства и систем:
 
 - на iPhone - `FoXray`, `Shadowrocket`, `Sockswitch-Shadowsocks Client`, `Potatso Lite`
-- на Windows - можно использовать браузерные расширения, например, `ZeroOmega--Proxy SwitchyOmega V3` (алгоритм настройки [здесь](#расширения) - единственное отличие: нужно вписывать не `127.0.0.1`, а ip устройства с запущенным ByeByeDPI) или использовать приложения: [nekoray](https://github.com/MatsuriDayo/nekoray/), proxifier, [proxifyre](https://github.com/wiresock/proxifyre), [sockscap64](https://www.sockscap64.com/homepage/) (для старых Windows).
+- на Windows - можно использовать браузерные расширения, например, `ZeroOmega--Proxy SwitchyOmega V3` (алгоритм настройки [здесь](#extension) - единственное отличие: нужно вписывать не `127.0.0.1`, а ip устройства с запущенным ByeByeDPI) или использовать приложения: [nekoray](https://github.com/MatsuriDayo/nekoray/), proxifier, [proxifyre](https://github.com/wiresock/proxifyre), [sockscap64](https://www.sockscap64.com/homepage/) (для старых Windows).
 - на MacBook - FoXray, [V2RayXS](https://github.com/tzmax/V2RayXS) (для старых маков), [nekoray](https://github.com/Mahdi-zarei/nekoray).
 - на другое Android-устройство - [nekobox](https://github.com/MatsuriDayo/NekoBoxForAndroid), proxifier for Android, [SocksDroid](https://github.com/bndeff/socksdroid) (требуется Android 5.0+), [SocksTun](https://github.com/heiher/sockstun), для старых версий Андроид ProxyDroid (требуется рут).
 
