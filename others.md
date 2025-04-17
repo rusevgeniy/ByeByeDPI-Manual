@@ -60,8 +60,8 @@
 
 #### Модули Magisk для Android (нужен root)
 
+- [ZDT&D Magisk Module](https://github.com/GAME-OVER-op/ZDT-D) от GAME-OVER-op (предпочтительнее)
 - [zapret-magisk](https://github.com/ImMALWARE/zapret-magisk) от ImMALWARE
-- [ZDT&D Magisk Module](https://github.com/GAME-OVER-op/ZDT-D) от GAME-OVER-op
 
 ### <a id="other-windows">На Windows</a>
 
@@ -90,9 +90,13 @@
 
 ### <a id="other-linux">На Linux</a>
 
-##### Скрипт для автоматической установки и управления zapret'ом
+##### Скрипты для автоматической установки и управления zapret'ом
 
-[zapret.installer](https://github.com/Snowy-Fluffy/zapret.installer) от Snowy-Fluffy
+> [!CAUTION]
+> Данные скрипты не рекомендуются для использования. Настраивайте оригинальные утилиты
+
+- [zapret.installer](https://github.com/Snowy-Fluffy/zapret.installer) от Snowy-Fluffy
+- [zapret-discord-youtube-linux](https://github.com/Sergeydigl3/zapret-discord-youtube-linux) от Sergeydigl3
 
 #### Оригинальные утилиты
 
@@ -117,6 +121,7 @@
 - [Инструкция](https://habr.com/ru/articles/834826/) на nfqws (программа из состава zapret подходит для Keenetic)
 - [ByeDPI для OpenWrt](https://github.com/spvkgn/ByeDPI-OpenWrt)
 - [Инструкция](https://habr.com/ru/articles/856312/) на ByeDPI (OpenWrt)
+- [Инструкция](https://lsetc.ru/ustanovka-youtubeunblock-na-openwrt/) по установке youtubeUnblock на OpenWrt
 - [Инструкция](https://habr.com/ru/articles/838452/) на ByeDPI для мощных MikroTik
 
 ### <a id="other-home-server">На домашнем сервере (постоянно включенном устройстве)</a>
@@ -125,16 +130,19 @@
 - [Можно подключаться](features.md#distribute) к телефону, на котором запущен ByeByeDPI
 - [ByeDPI на одноплатном компьютере](https://habr.com/ru/articles/870254/)
 - [youtubeUnblock на одноплатном компьютере](https://habr.com/ru/articles/871460/)
+- [zapret в контейнере c Shadowsocks](https://github.com/vernette/ss-zapret) для сервера
+- [zapret на одноплатном компьютере](https://habr.com/ru/articles/833508/)
 
 ### <a id="other-mac">На Mac</a>
-
-> [!TIP]
-> Настроить ByeDPI проще
 
 > [!CAUTION]
 > Выполняйте инструкции на свой страх и риск!
 
+> [!TIP]
+> Настроить ByeDPI проще
+
 [ByeDPI](https://github.com/hufrea/byedpi) от hufrea
+[zapret](https://github.com/bol-van/zapret/blob/master/docs/bsd.md#macos) от bol-van
 
 [Видеоинструкция](https://youtu.be/zlWMp8IlGCU?si=xZ-xAlts09Atugvq) по установке ByeDPI *на Linux*
 
