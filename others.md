@@ -16,20 +16,56 @@
 
 Если вас по каким-то причинам не устраивает оригинальное приложение YouTube, вот несколько альтернативных:
 
-- [YouTube for Androuid TV](https://play.google.com/store/apps/details?id=com.google.android.youtube.tv) - если у вас телевизор.
-- YouTube ReVanced Extended - если у вас проблемы с QUIC.
-- YouTube ReVanced. Вот ссылка на [Revanced Manager](https://revanced.net/revanced-manager) - приложение для удобного скачивания и обновления ReVanced и MicroG. [revanced.app](https://revanced.app/) - Официальный сайт ReVanced
-- [PureTuber](https://play.google.com/store/apps/details?id=free.tube.premium.advanced.tuber) – это клиент для YouTube, за основу которого был взят другой клиент - NewPipe. Новый интерфейс и добавлена возможность входа в google аккаунт.
-- [VancedTuber](https://vanced-official.com/) – это клиент для YouTube на основе NewPipe от авторов PureTuber, упрощенная версия клиента выше.
-- [NewPipe](https://github.com/TeamNewPipe/NewPipe/releases) -  клиент для YouTube, который не использует каких-либо библиотек, зависящих от Google или каких-либо Youtube API. Отсутствует функция авторизации в google аккаунт.
-- [SmartTube](https://github.com/yuliskov/SmartTube) - удобный клиент для телевизоров и приставок. Единственный клиент с поддержкой прокси.
+#### Для телевизоров и приставок
 
-### Для продвинутых
+- [YouTube for Androuid TV](https://play.google.com/store/apps/details?id=com.google.android.youtube.tv) - официальное приложение YouTube для управления пультом. Требуется Android 7.0+
+- [SmartTube](https://github.com/yuliskov/SmartTube) - единственный клиент с поддержкой прокси. Требуется Android 4.3+
 
-Для установки YouTube ReVanced и YouTube ReVanced Extended рекомендуется патчить приложение самостоятельно:
+#### YouTube с патчами
+
+- YouTube ReVanced. [Revanced Manager](https://revanced.net/revanced-manager) - приложение для удобного скачивания и обновления ReVanced и MicroG. [revanced.app](https://revanced.app/) - Официальный сайт ReVanced. Требуется Android 8.0+
+- YouTube ReVanced Extended - если у вас проблемы с QUIC. Требуется Android 8.0+
+
+##### Для продвинутых
+
+> [!TIP]
+> Для установки YouTube ReVanced и YouTube ReVanced Extended рекомендуется патчить приложение самостоятельно:
 
 - [YouTube ReVanced Manager](https://github.com/ReVanced/revanced-manager)
 - [RVX Manager](https://github.com/inotia00/revanced-manager)
+
+#### NewPipe и его вариации
+
+- [NewPipe](https://github.com/TeamNewPipe/NewPipe/releases) -  клиент для YouTube, который не использует каких-либо библиотек, зависящих от Google. Отсутствует функция авторизации в google аккаунт. Требуется Android 5.0+
+- [BravePipe](https://github.com/bravenewpipe/NewPipe) - форк NewPipe с поддержкой Sponsorblock, улучшенными фильтрами поиска и сортировки. Есть импорт подписок с помощью Google Takeout. Требуется Android 4.4+ (не проверено)
+- [PipePipe](https://github.com/InfinityLoop1308/PipePipe) - форк NewPipe с большим количеством сервисов, клиентских функций и исправлений ошибок. Требуется Android 5.0+
+- [Tubular](https://github.com/polymorphicshade/Tubular) - форк NewPipe c поддержкой Sponsorblock и ReturnYouTubeDislike. Требуется Android 5.0+
+
+#### SkyTube
+
+- [SkyTube Extra](https://github.com/SkyTubeTeam/SkyTube) - простой и функциональный проигрыватель видео с YouTube. Поддерживает официальный плеер и Chromecast. Требуется Android 4.4+
+- [SkyTube](https://github.com/SkyTubeTeam/SkyTube) - простое и функциональное свободное приложение для проигрывания видеороликов с YouTube, которое не требует Google Play Services для работы. Требуется Android 4.4+
+- [SkyTube Legacy Extra](https://github.com/SkyTubeTeam/SkyTubeLegacy) - простой и функциональный проигрыватель видео с YouTube. Поддерживает официальный плеер и Chromecast. Требуется Android 4.0+
+- [SkyTube Legacy](https://github.com/SkyTubeTeam/SkyTubeLegacy) - простое и функциональное свободное приложение для проигрывания видеороликов с YouTube, которое не требует Google Play Services для работы. Требуется Android 4.0+
+
+#### Идейные клиенты, которые выступают за приватность
+
+> [!WARNING]
+> Для работы данных приложений требуются инстансы. Они могут быть заблокированы и требовать [разблокировки](features.md#разблокировать-свои-ресурсы).
+
+- [FreeTube Android](https://github.com/MarmadileManteater/FreeTubeAndroid) - клиент YouTube, использующий Invidious API для передачи данных и видео с YouTube. Требуется Android 7.0+
+- [Clipious](https://github.com/lamarios/clipious) - клиент для Invidious, пользовательского интерфейса YouTube, ориентированного на конфиденциальность. Подеррживает Sponsorblock и ReturnYouTubeDislike. Заявлена поддержка интерфеса для **телевизоров**. Требуется Android 4.1+
+- [LibreTube](https://github.com/libre-tube/LibreTube) - клиент, использующий [API Piped](https://github.com/TeamPiped/Piped) для отображения содержимого каналов и воспроизведения контента, не требует наличия учетной записи YouTube и сервисов Google.
+
+#### Ещё варианты
+
+- [VueTube](https://github.com/pixkk/VueTube) - клиент YouTube построенный на базе Vue. Есть поддержка Sponsorblock и ReturnYouTubeDislike. Требуется Android 5.0+ (возможно не поддерживается Android 12.1+)
+- [Namida](https://github.com/namidaco/namida) - красивый и многофункциональный проигрыватель музыки и видео с поддержкой YouTube.
+
+#### Проприетарные программы
+
+- [PureTuber](https://play.google.com/store/apps/details?id=free.tube.premium.advanced.tuber) – это клиент для YouTube, за основу которого был взят NewPipe. Новый интерфейс и добавлена возможность входа в google-аккаунт. Требуется Android 4.4+
+- [GreenTuber](https://play.google.com/store/apps/details?id=by.green.tuber&hl=en) - YouTube с блокировщиком рекламы. Требуется Android 6.0+
 
 ## <a id="dns">Про DNS</a>
 
@@ -90,13 +126,14 @@
 
 ### <a id="other-linux">На Linux</a>
 
-##### Скрипты для автоматической установки и управления zapret'ом
+##### Скрипты для автоматической установки
 
 > [!CAUTION]
 > Данные скрипты не рекомендуются для использования. Настраивайте оригинальные утилиты
 
 - [zapret.installer](https://github.com/Snowy-Fluffy/zapret.installer) от Snowy-Fluffy
 - [zapret-discord-youtube-linux](https://github.com/Sergeydigl3/zapret-discord-youtube-linux) от Sergeydigl3
+- [Byedpi-Setup](https://github.com/fatyzzz/Byedpi-Setup) от fatyzzz
 
 #### Оригинальные утилиты
 
@@ -141,8 +178,8 @@
 > [!TIP]
 > Настроить ByeDPI проще
 
-[ByeDPI](https://github.com/hufrea/byedpi) от hufrea
-[zapret](https://github.com/bol-van/zapret/blob/master/docs/bsd.md#macos) от bol-van
+- [ByeDPI](https://github.com/hufrea/byedpi) от hufrea
+- [zapret](https://github.com/bol-van/zapret/blob/master/docs/bsd.md#macos) от bol-van
 
 [Видеоинструкция](https://youtu.be/zlWMp8IlGCU?si=xZ-xAlts09Atugvq) по установке ByeDPI *на Linux*
 
