@@ -51,11 +51,12 @@
 #### Идейные клиенты, которые выступают за приватность
 
 > [!WARNING]
-> Для работы данных приложений требуются инстансы. Они могут быть заблокированы и требовать [разблокировки](features.md#разблокировать-свои-ресурсы).
+> Для работы данных приложений требуются инстансы. Они могут быть заблокированы иначе чем YouTube и требовать [разблокировки](features.md#разблокировать-свои-ресурсы) отдельно.
 
 - [FreeTube Android](https://github.com/MarmadileManteater/FreeTubeAndroid) - клиент YouTube, использующий Invidious API для передачи данных и видео с YouTube. Требуется Android 7.0+
 - [Clipious](https://github.com/lamarios/clipious) - клиент для Invidious, пользовательского интерфейса YouTube, ориентированного на конфиденциальность. Подеррживает Sponsorblock и ReturnYouTubeDislike. Заявлена поддержка интерфеса для **телевизоров**. Требуется Android 4.1+
 - [LibreTube](https://github.com/libre-tube/LibreTube) - клиент, использующий [API Piped](https://github.com/TeamPiped/Piped) для отображения содержимого каналов и воспроизведения контента, не требует наличия учетной записи YouTube и сервисов Google.
+- [Mini YouTube](https://github.com/monobogdan/selfeco) - клиент YouTube из состава приложений SelfEco. Использует Invidous API. **Требуется Android 2.2+** Также существует [форк](https://github.com/tinelix/selfeco-plus), с заявленной поддержкой HTTP-прокси для YouTube, однако собирать приложение нужно самомтоятельно.
 
 #### Ещё варианты
 
@@ -96,7 +97,7 @@
 
 #### Модули Magisk для Android (нужен root)
 
-- [ZDT&D Magisk Module](https://github.com/GAME-OVER-op/ZDT-D) от GAME-OVER-op (предпочтительнее)
+- [ZDT&D Magisk Module](https://github.com/GAME-OVER-op/ZDT-D) от GAME-OVER-op
 - [zapret-magisk](https://github.com/ImMALWARE/zapret-magisk) от ImMALWARE
 
 ### <a id="other-windows">На Windows</a>
@@ -139,6 +140,7 @@
 
 - [zapret](https://github.com/bol-van/zapret) от bol-van
 - [ByeDPI](https://github.com/hufrea/byedpi) от hufrea
+- [контейнер с ByeDPI](https://hub.docker.com/r/tazihad/byedpi)
 - [youtubeUnblock](https://github.com/Waujito/youtubeUnblock) от Waujito
 
 #### Инструкции к оригинальным утилитам
@@ -152,14 +154,14 @@
 
 ### <a id="other-router">На роутере</a>
 
-- [Инструкция](https://github.com/bol-van/zapret/blob/master/docs/quick_start.md) на оригинальный zapret (OpenWrt)
-- [Инструкция](https://github.com/remittor/zapret-openwrt) на zapret‐openwrt (zapret с интерфейсом для OpenWrt)
-- [Инструкция](https://github.com/Anonym-tsk/nfqws-keenetic) на nfqws (программа из состава zapret подходит для Keenetic / OpenWrt / Netcraze / Padavan)
-- [Инструкция](https://habr.com/ru/articles/834826/) на nfqws (программа из состава zapret подходит для Keenetic)
+- [Оригинальный zapret](https://github.com/bol-van/zapret/blob/master/docs/quick_start.md) на OpenWrt
+- [zapret‐openwrt](https://github.com/remittor/zapret-openwrt) - zapret с интерфейсом для OpenWrt
+- [nfqws](https://github.com/Anonym-tsk/nfqws-keenetic) - программа из состава zapret. Есть инструкция для Keenetic / OpenWrt / Netcraze / Padavan
+- [nfqws](https://habr.com/ru/articles/834826/) - программа из состава zapret. Инструкция для Keenetic
 - [ByeDPI для OpenWrt](https://github.com/spvkgn/ByeDPI-OpenWrt)
-- [Инструкция](https://habr.com/ru/articles/856312/) на ByeDPI (OpenWrt)
-- [Инструкция](https://lsetc.ru/ustanovka-youtubeunblock-na-openwrt/) по установке youtubeUnblock на OpenWrt
-- [Инструкция](https://habr.com/ru/articles/838452/) на ByeDPI для мощных MikroTik
+- [ByeDPI](https://habr.com/ru/articles/856312/) на OpenWrt
+- [youtubeUnblock](https://lsetc.ru/ustanovka-youtubeunblock-na-openwrt/) на OpenWrt
+- [ByeDPI](https://habr.com/ru/articles/838452/) на MikroTik
 
 ### <a id="other-home-server">На домашнем сервере (постоянно включенном устройстве)</a>
 
@@ -169,6 +171,8 @@
 - [youtubeUnblock на одноплатном компьютере](https://habr.com/ru/articles/871460/)
 - [zapret в контейнере c Shadowsocks](https://github.com/vernette/ss-zapret) для сервера
 - [zapret на одноплатном компьютере](https://habr.com/ru/articles/833508/)
+- [контейнер с ByeDPI](https://hub.docker.com/r/tazihad/byedpi)
+- [ByeDPI на Synology](https://bafista.ru/ustanovka-byedpi-v-kontejner-docker-na-synology/) или [ByeDPI на TerraMaster](https://bafista.ru/ustanovka-byedpi-v-kontejner-docker-na-terramaster/)
 
 ### <a id="other-mac">На Mac</a>
 
@@ -180,6 +184,12 @@
 
 - [ByeDPI](https://github.com/hufrea/byedpi) от hufrea
 - [zapret](https://github.com/bol-van/zapret/blob/master/docs/bsd.md#macos) от bol-van
+
+#### Контейнер с ByeDPI
+
+[контейнер с ByeDPI](https://hub.docker.com/r/tazihad/byedpi)
+
+#### Нативная установка
 
 [Видеоинструкция](https://youtu.be/zlWMp8IlGCU?si=xZ-xAlts09Atugvq) по установке ByeDPI *на Linux*
 
