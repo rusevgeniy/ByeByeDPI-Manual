@@ -253,7 +253,7 @@ _Белый_ список - выбранные приложения **будут
 Примером такой стратегии будет:
 
 ```
--H":googlevideo.com youtubei.googleapis.com i.ytimg.com yt3.ggpht.com youtube.com" -s1 -q1 -Y -Ar -s5 -o25000+s -At -f-1 -r1+s -As -s1 -o1+s -s-1 -An -b+500 -a2 -Art -a3 -Asn -Kuh -s29+s -o5+s -f-1 -S -As -At -T5 -b1000 -S -q1+s -O1 -s25+s -t5 -Y -a2 -Art -f-1 -r1+s -a3 -Asn -q1+s -O3 -s29+s -t8 -As -Kuh -b665 -An -s1 -o1 -Ar -o3 -At -T5 -s1 -d1 -o1 -Ar -o1 -At -f32 -r1+s -s1 -q1 -Y -a2 -Art -f-1 -r1+s -a3 -Asn -s0 -o1 -d1 -r1+s --mod-http d,r
+-H:googlevideo.com youtubei.googleapis.com i.ytimg.com yt3.ggpht.com youtube.com -s1 -q1 -Y -Ar -s5 -o25000+s -At -f-1 -r1+s -As -s1 -o1+s -s-1 -An -b+500 -a2 -Art -a3 -Asn -Kuh -s29+s -o5+s -f-1 -S -As -At -T5 -b1000 -S -q1+s -O1 -s25+s -t5 -Y -a2 -Art -f-1 -r1+s -a3 -Asn -q1+s -O3 -s29+s -t8 -As -Kuh -b665 -An -s1 -o1 -Ar -o3 -At -T5 -s1 -d1 -o1 -Ar -o1 -At -f32 -r1+s -s1 -q1 -Y -a2 -Art -f-1 -r1+s -a3 -Asn -s0 -o1 -d1 -r1+s --mod-http d,r
 
 ```
 
