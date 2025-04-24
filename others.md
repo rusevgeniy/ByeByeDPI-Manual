@@ -329,7 +329,7 @@ rm ~/Library/LaunchAgents/com.user.byedpi.plist
 Варианты для пользователей iPhone:
 
 - Использовать VPN. Не требует особых навыков, услилий и знаний
-- Использовать ByeByeDPI в качестве локального прокси-сервера. Данный вариант подойдёт, если есть устройство на Android с настроенным ByeByeDPI. Подробная инструкция [здесь]([features.md#distribute](https://github.com/HideakiTaiki/ByeByeDPI-Manual/blob/main/features.md#%D1%80%D0%B0%D0%B7%D0%B4%D0%B0%D1%87%D0%B0-%D0%B8%D0%BD%D1%82%D0%B5%D1%80%D0%BD%D0%B5%D1%82%D0%B0-%D1%81-byebyedpi-%D0%BB%D0%BE%D0%BA%D0%B0%D0%BB%D1%8C%D0%BD%D1%8B%D0%B9-%D0%BF%D1%80%D0%BE%D0%BA%D1%81%D0%B8))
+- Использовать ByeByeDPI в качестве локального прокси-сервера. Данный вариант подойдёт, если есть устройство на Android с настроенным ByeByeDPI. Подробная инструкция [здесь](https://github.com/HideakiTaiki/ByeByeDPI-Manual/blob/main/features.md#%D1%80%D0%B0%D0%B7%D0%B4%D0%B0%D1%87%D0%B0-%D0%B8%D0%BD%D1%82%D0%B5%D1%80%D0%BD%D0%B5%D1%82%D0%B0-%D1%81-byebyedpi-%D0%BB%D0%BE%D0%BA%D0%B0%D0%BB%D1%8C%D0%BD%D1%8B%D0%B9-%D0%BF%D1%80%D0%BE%D0%BA%D1%81%D0%B8)
 - Использовать решения по [обходу DPI на роутере](#other-router). Если приобрести белый IP у провайдера, то можно будет настроить VPN-туннель до роутера и выходит в интернет с телефона через роутер с настроенным средством обхода
 - Использовать решения по [обходу DPI на домашнем сервере](#other-home-server) (в качестве сервера может выступать ПК)
 
