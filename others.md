@@ -9,6 +9,7 @@
      - [На роутере](#other-router)
      - [На домашнем сервере (постоянно включенном устройстве)](#other-home-server)
      - [На Mac](#other-mac)
+     - [На iPhone](#other-iphone)
 4. ["Стандартный редактор" - нужен ли?](#ui-editor)
 5. [Универсальная стратегия](#universal)
 
@@ -56,7 +57,7 @@
 - [FreeTube Android](https://github.com/MarmadileManteater/FreeTubeAndroid) - клиент YouTube, использующий Invidious API для передачи данных и видео с YouTube. Требуется Android 7.0+
 - [Clipious](https://github.com/lamarios/clipious) - клиент для Invidious, пользовательского интерфейса YouTube, ориентированного на конфиденциальность. Подеррживает Sponsorblock и ReturnYouTubeDislike. Заявлена поддержка интерфеса для **телевизоров**. Требуется Android 4.1+
 - [LibreTube](https://github.com/libre-tube/LibreTube) - клиент, использующий [API Piped](https://github.com/TeamPiped/Piped) для отображения содержимого каналов и воспроизведения контента, не требует наличия учетной записи YouTube и сервисов Google.
-- [Mini YouTube](https://github.com/monobogdan/selfeco) - клиент YouTube из состава приложений SelfEco. Использует Invidous API. **Требуется Android 2.2+** Также существует [форк](https://github.com/tinelix/selfeco-plus), с заявленной поддержкой HTTP-прокси для YouTube, однако собирать приложение нужно самомтоятельно.
+- [Mini YouTube](https://github.com/monobogdan/selfeco) - клиент YouTube из состава приложений SelfEco. Использует Invidous API. **Требуется Android 2.2+** Также существует [форк](https://github.com/tinelix/selfeco-plus), с заявленной поддержкой HTTP-прокси для YouTube, однако собирать приложение нужно самостоятельно.
 
 #### Ещё варианты
 
@@ -162,6 +163,7 @@
 - [ByeDPI](https://habr.com/ru/articles/856312/) на OpenWrt
 - [youtubeUnblock](https://lsetc.ru/ustanovka-youtubeunblock-na-openwrt/) на OpenWrt
 - [ByeDPI](https://habr.com/ru/articles/838452/) на MikroTik
+- [zapret](https://github.com/AlexFBG/zapret) на Keenetic
 
 ### <a id="other-home-server">На домашнем сервере (постоянно включенном устройстве)</a>
 
@@ -320,7 +322,18 @@ launchctl unload ~/Library/LaunchAgents/com.user.byedpi.plist
 rm ~/Library/LaunchAgents/com.user.byedpi.plist
 ```
 
-## <a id="ui-editor">"Стандартный редактор" - нужен ли?</a>
+## <a id="other-iphone">На iPhone</a>
+
+Решений по обходу DPI конкретно на iPhone не существует и, скорее всего, никогда не появится.
+
+Варианты для пользователей iPhone:
+
+- Использовать VPN. Не требует особых навыков, услилий и знаний
+- Использовать ByeByeDPI в качестве локального прокси-сервера. Данный вариант подойдёт, если есть устройство на Android с настроенным ByeByeDPI. Наглядная инструкция #todo
+- Использовать решения по [обходу DPI на роутере](#other-router). Если приобрести белый IP у провайдера, то можно будет настроить VPN-туннель до роутера и выходит в интернет с телефона через роутер с настроенным средством обхода
+- Использовать решения по [обходу DPI на домашнем сервере](#other-home-server) (в качестве сервера может выступать ПК)
+
+## <a id="ui-editor">Стандартный редактор" - нужен ли?</a>
 
 Чтобы разрабатывать стратегию (а настройки в графическом редакторе это и есть данный процесс), необходимо разбираться в работе сетей и понимать за что отвечает каждый пункт настроек досконально изучив [документацию](https://github.com/hufrea/byedpi). Тем, кто изучил документацию, не нужен графический редактор, потому что он не отображает всех аргументов, а делает это лишь частично.
 
