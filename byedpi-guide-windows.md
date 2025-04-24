@@ -20,7 +20,7 @@ service_install пкм -> запуск от имени администрато�
 
 <img src="images/Pasted image 20250321232617.png" width="700">
 
-Можно использовать [Proxy SwitchyOmega 3](https://chromewebstore.google.com/detail/proxy-switchyomega-3-zero/pfnededegaaopdmhkdmcofjmoldfiped?hl=ru&utm_source=ext_sidebar) [FoxyProxy](https://chromewebstore.google.com/detail/foxyproxy/gcknhkkoolaabfmlnjonogaaifnjlfnp?hl=ru&utm_source=ext_sidebar) или  для Chromium-подобных браузеров. Или [ZeroOmega--Proxy SwitchyOmega V3](https://addons.mozilla.org/ru/firefox/addon/zeroomega/?utm_source=addons.mozilla.org&utm_medium=referral&utm_content=search) для Firefox.
+Можно использовать [Proxy SwitchyOmega 3](https://chromewebstore.google.com/detail/proxy-switchyomega-3-zero/pfnededegaaopdmhkdmcofjmoldfiped?hl=ru&utm_source=ext_sidebar) или [FoxyProxy](https://chromewebstore.google.com/detail/foxyproxy/gcknhkkoolaabfmlnjonogaaifnjlfnp?hl=ru&utm_source=ext_sidebar) для Chromium-подобных браузеров. Или [ZeroOmega--Proxy SwitchyOmega V3](https://addons.mozilla.org/ru/firefox/addon/zeroomega/?utm_source=addons.mozilla.org&utm_medium=referral&utm_content=search) для Firefox.
 Настройка идентична [настройке](features.md#расширения) на телефоне.
 
 C сайта браузера [Mozilla Firefox](https://www.mozilla.org/ru/firefox/download/thanks/) качаем и  устанавливаем его.
