@@ -55,13 +55,13 @@ _А если всё-таки очень хочется получить дост
 - `dot.sb`
 - больше DoT [здесь](https://dnsprivacy.org/public_resolvers/#dns-over-tls-dot) и [здесь](https://adguard-dns.io/kb/ru/general/dns-providers/)
 
-DNS over HTTPS можно найти [здесь](https://github.com/curl/curl/wiki/DNS-over-HTTPS) или [здесь](https://dnscrypt.info/public-servers/), однако нужно учитывать, что DoH не поддерживатеся на уровне системы Android.
-
 Укажите в системе частный DNS:
 
 <img src="images/Pasted image 20250305220140.png" width="200">
 
 <img src="images/Pasted image 20250305220209.png" width="200">
+
+DNS over HTTPS можно найти [здесь](https://github.com/curl/curl/wiki/DNS-over-HTTPS) или [здесь](https://dnscrypt.info/public-servers/), однако нужно учитывать, что DoH не поддерживатеся на уровне системы Android.
 
 ### <a id="setting">Настройка</a>
 
