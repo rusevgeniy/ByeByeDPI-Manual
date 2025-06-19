@@ -119,7 +119,7 @@
 --fake 30+h --split 21+hm --oob -27+sm --fake -19+nm --fake-offset 12 --ttl 1 --disoob -19+nr --disoob 24+h --mod-http h
 --fake 7
 --fake-data=':\xC2\x00\x00\x00\x01\x14\x2E\xE3\xE3\x5F\x6B\xBB\x23\xA8\xE6\x5D\xA9\x78\x21\xCF\xC2\x72\x4C\x8F\xC4\x5E\x14\x00\x00\x00\x00\xC5\x00\x00\x00\x00\x4C\x00\xA7\x00\x00\x00\x00\x00\x00\x44\x00\x00\x80\x00\x00\x00\x0D\xFC\xFA\x1D\xCD\x73\xBA\x2A\x90\x93\xB3\xEE\xF7\x43\xC5\x85\xDA\xFF\x45\x3C\x00\x00\x00\x00\x00\x00\x7C\x00\x9B\x00\xF6\x00\x00\xDD\x00\x00\x00\x00\x00\x00\x00\x00\x00\x59\xA8\xE4\x00\x00\x00\x00\x00\x00\x00\x00\x7B\x00\x0F\x00\x00\x00\x48\x4E\x00\x00\x00\x06\xF3\x00\x00\x00\x00\xD9\x5A\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00' -a6 -d1
---hosts ':abs-0.twimg.com abs.twimg.com pbs.twimg.com x.com' --split 2 --fake 0+e --ttl 5 -n=www.google.com
+--hosts ':abs-0.twimg.com abs.twimg.com pbs.twimg.com x.com' --split 2 --fake 0 --ttl 5 -n=www.google.com
 --hosts ':abs-0.twimg.com abs.twimg.com pbs.twimg.com x.com' --split 2 -f 2 --ttl 5 -n=www.google.com
 --oob 2 --split -5+se
 --oob 2 -n example.com --timeout 3
@@ -166,7 +166,7 @@
 --split 2 --fake -1 --ttl 6 --proto=tls
 --split 2 --fake -1 --ttl 7
 --split 2 --fake -1 --ttl 8
---split 2 --fake 0+e --ttl 5 -n=www.google.com
+--split 2 --fake 0 --ttl 5 -n=www.google.com
 --split 2 --fake 1 --ttl 5 -n=www.google.com
 --split 2 --fake 1+s --ttl 5 --cache-ttl 2400
 --split 2 --tlsrec 1+s --timeout 4 --drop-sack
