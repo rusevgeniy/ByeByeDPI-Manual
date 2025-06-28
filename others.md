@@ -162,7 +162,7 @@
 - [zapret‐openwrt](https://github.com/remittor/zapret-openwrt) - zapret с интерфейсом
 - [nfqws](https://github.com/Anonym-tsk/nfqws-keenetic) - программа из состава zapret. Есть инструкция для Keenetic / OpenWrt / Netcraze / Padavan
 - [ByeDPI для OpenWrt](https://github.com/spvkgn/ByeDPI-OpenWrt)
-- [ByeDPI](https://habr.com/ru/articles/856312/)
+- [ByeDPI + Redsocks](https://habr.com/ru/articles/856312/)
 - [youtubeUnblock](https://lsetc.ru/ustanovka-youtubeunblock-na-openwrt/)
 
 > [!TIP]
