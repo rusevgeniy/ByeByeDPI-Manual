@@ -140,6 +140,7 @@
 #### Оригинальные утилиты
 
 - [zapret](https://github.com/bol-van/zapret) от bol-van
+- [zapret в контейнере](https://github.com/vernette/ss-zapret) c Shadowsocks и SOCKS5
 - [ByeDPI](https://github.com/hufrea/byedpi) от hufrea
 - [контейнер с ByeDPI](https://hub.docker.com/r/tazihad/byedpi)
 - [youtubeUnblock](https://github.com/Waujito/youtubeUnblock) от Waujito
@@ -151,19 +152,33 @@
 
 - [zapret](https://github.com/bol-van/zapret?tab=readme-ov-file#%D0%B1%D1%8B%D1%81%D1%82%D1%80%D1%8B%D0%B9-%D1%81%D1%82%D0%B0%D1%80%D1%82)
 - [zapret](https://www.youtube.com/watch?v=FdDC9R7gL-Y&t=53s) видеоинструкция
-- [ByeDPI](https://youtu.be/zlWMp8IlGCU?si=xZ-xAlts09Atugvq) видеоинструкция
+- [ByeDPI](https://github.com/hufrea/byedpi/tree/main/dist/linux)
 
 ### <a id="other-router">На роутере</a>
 
-- [Оригинальный zapret](https://github.com/bol-van/zapret/blob/master/docs/quick_start.md) на OpenWrt
-- [zapret‐openwrt](https://github.com/remittor/zapret-openwrt) - zapret с интерфейсом для OpenWrt
+#### OpenWrt
+
+- [Оригинальный zapret](https://github.com/bol-van/zapret/blob/master/docs/quick_start.md)
+- [zapret‐openwrt](https://github.com/remittor/zapret-openwrt) - zapret с интерфейсом
 - [nfqws](https://github.com/Anonym-tsk/nfqws-keenetic) - программа из состава zapret. Есть инструкция для Keenetic / OpenWrt / Netcraze / Padavan
-- [nfqws](https://habr.com/ru/articles/834826/) - программа из состава zapret. Инструкция для Keenetic
 - [ByeDPI для OpenWrt](https://github.com/spvkgn/ByeDPI-OpenWrt)
-- [ByeDPI](https://habr.com/ru/articles/856312/) на OpenWrt
-- [youtubeUnblock](https://lsetc.ru/ustanovka-youtubeunblock-na-openwrt/) на OpenWrt
-- [ByeDPI](https://habr.com/ru/articles/838452/) на MikroTik
-- [zapret](https://github.com/AlexFBG/zapret) на Keenetic
+- [ByeDPI](https://habr.com/ru/articles/856312/)
+- [youtubeUnblock](https://lsetc.ru/ustanovka-youtubeunblock-na-openwrt/)
+
+> [!TIP]
+> Можно использовать [пакет ByeDPI](https://github.com/spvkgn/ByeDPI-OpenWrt) в качестве кастомного outbound'a в [podkop](https://github.com/itdoginfo/podkop), чтобы управлять трафиком через sign-box 
+
+#### Keenetic
+
+- [nfqws](https://github.com/Anonym-tsk/nfqws-keenetic) - программа из состава zapret. Есть инструкция для Keenetic / OpenWrt / Netcraze / Padavan
+- [zapret](https://github.com/AlexFBG/zapret)
+- [nfqws](https://habr.com/ru/articles/834826/) - программа из состава zapret. Инструкция для Keenetic
+- [youtubeUnblock](https://github.com/Waujito/youtubeUnblock?tab=readme-ov-file#entware)
+
+#### MikroTik
+
+- [ByeDPI](https://habr.com/ru/articles/838452/) - статья с инструкцией
+- [Контейнеры](https://hub.docker.com/u/wiktorbgu) с tpws из состава zapret и ByeDPI. В tpws нет возможности использовать UDP
 
 ### <a id="other-home-server">На домашнем сервере (постоянно включенном устройстве)</a>
 
@@ -171,7 +186,7 @@
 - [Можно подключаться](features.md#distribute) к телефону, на котором запущен ByeByeDPI
 - [ByeDPI на одноплатном компьютере](https://habr.com/ru/articles/870254/)
 - [youtubeUnblock на одноплатном компьютере](https://habr.com/ru/articles/871460/)
-- [zapret в контейнере c Shadowsocks](https://github.com/vernette/ss-zapret) для сервера
+- [zapret в контейнере](https://github.com/vernette/ss-zapret) c Shadowsocks и SOCKS5
 - [zapret на одноплатном компьютере](https://habr.com/ru/articles/833508/)
 - [контейнер с ByeDPI](https://hub.docker.com/r/tazihad/byedpi)
 - [ByeDPI на Synology](https://bafista.ru/ustanovka-byedpi-v-kontejner-docker-na-synology/) или [ByeDPI на TerraMaster](https://bafista.ru/ustanovka-byedpi-v-kontejner-docker-na-terramaster/)
@@ -182,7 +197,7 @@
 > Выполняйте инструкции на свой страх и риск!
 
 > [!TIP]
-> Настроить ByeDPI проще
+> Настроить ByeDPI проще. Как в варианте с контейнером, так и в варианте с нативной установкой.
 
 - [ByeDPI](https://github.com/hufrea/byedpi) от hufrea
 - [zapret](https://github.com/bol-van/zapret/blob/master/docs/bsd.md#macos) от bol-van
@@ -193,9 +208,9 @@
 
 #### Нативная установка
 
-[Видеоинструкция](https://youtu.be/zlWMp8IlGCU?si=xZ-xAlts09Atugvq) по установке ByeDPI *на Linux*
+[Инструкция](https://github.com/hufrea/byedpi/tree/main/dist/linux) по установке ByeDPI *на Linux*
 
-Так как автор инструкции не имеет устройства с MacOS, он может только предположить, что вместо команд которые показаны автором видео необходимо использовать другие:
+Так как автор инструкции не имеет устройства с MacOS, он может только предположить, что необходимо выполнить следующие шаги:
 
 - Установите инструменты командной строки Xcode
 
@@ -248,9 +263,10 @@ chmod +x ciadpi
 ./ciadpi [стратегия, которая работает на телефоне в приложении ByeByeDPI в вашей сети]
 ```
 
-Чтобы проверить работу ByeDPI, [установите Firefox](https://www.mozilla.org/en-US/firefox/mac/) как и автор видео, и проверьте работу сервисов там. Если всё хорошо работает - в последствии можно будет использовать приложения по типу FoXray, [V2RayXS](https://github.com/tzmax/V2RayXS), [nekoray](https://github.com/Mahdi-zarei/nekoray).
+Чтобы проверить работу ByeDPI, [установите Firefox](https://www.mozilla.org/en-US/firefox/mac/) и проверьте работу сервисов там, подключившись к SOCKS5-прокси ByeDPI. Если всё хорошо работает - в последствии можно будет использовать приложения по типу FoXray, [V2RayXS](https://github.com/tzmax/V2RayXS), [nekoray](https://github.com/Mahdi-zarei/nekoray).
 
 > [!CAUTION]
+> На данном этапе установка завершена.
 > Для запуска в следующие разы необходимо указывать полный путь до папки с файлом, например: `/Users/you/apps/byedpi`
 
 Чтобы добавить в автозапуск
