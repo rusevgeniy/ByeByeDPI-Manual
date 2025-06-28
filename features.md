@@ -282,7 +282,7 @@ _Белый_ список - выбранные приложения **будут
 ---
 
 > [!TIP]
-> Если на вашем устройстве получен **root** - можно указать путь, по которому находится текстовый файл с доменами.
+> Если на вашем устройстве получен **root** (или вы получили доступ к системным директориям при помощи [Shizuku](https://github.com/RikkaApps/Shizuku) или другим способом) - можно указать путь, по которому находится текстовый файл с доменами.
 > На Андроиде приложению доступ будет не в любую папку.
 > Текстовый файл должен находится по пути: `/storage/emulated/0/Android/data/io.github.romanvht.byedpi/files/...`
 > Таким же образом можно указать содержимое фейковых пакетов.
@@ -389,6 +389,9 @@ ip устройства также можно узнать в настройка
 
 После этого открываем прокси-клиент на **iPhone** *(или другом устройстве)*. В примере используется `Happ`.
 
+> [!WARNING]
+> На iPhone нет туннелирования отдельных приложений. Вам придется добавлять собственные маршруты. В некоторых регионах, например в России, возможность подключения к SOCKS-прокси может быть удалена из Happ (в этом случае используйте другой клиент)
+
 Добавляем подключение:
 
 <img src="images/Pasted image 20250426113243.png" width="200">
@@ -429,7 +432,7 @@ ip устройства также можно узнать в настройка
 Прокси-клиенты на различные устройства и систем:
 
 - на iPhone - `Happ`, `FoXray`, `Shadowrocket`, `Sockswitch-Shadowsocks Client`, `Potatso Lite`
-- на Windows - можно использовать браузерные расширения, например, `ZeroOmega--Proxy SwitchyOmega V3` (алгоритм настройки [здесь](#extension) - единственное отличие: нужно вписывать не `127.0.0.1`, а ip устройства с запущенным ByeByeDPI) или использовать приложения: [nekoray](https://github.com/MatsuriDayo/nekoray/), proxifier, [proxifyre](https://github.com/wiresock/proxifyre), `Happ`, [sockscap64](https://www.sockscap64.com/homepage/) (для старых Windows).
+- на Windows - можно использовать браузерные расширения, например, `ZeroOmega--Proxy SwitchyOmega V3` (алгоритм настройки [здесь](#extension) - единственное отличие: нужно вписывать не `127.0.0.1`, а ip устройства с запущенным ByeByeDPI) или использовать приложения: [nekoray](https://github.com/MatsuriDayo/nekoray/), proxifier, [proxifyre](https://github.com/wiresock/proxifyre), Happ, [sockscap64](https://www.sockscap64.com/homepage/) (для старых Windows).
 - на MacBook - FoXray, [V2RayXS](https://github.com/tzmax/V2RayXS) (для старых маков), [nekoray](https://github.com/Mahdi-zarei/nekoray).
 - на другое Android-устройство - `Happ`, [nekobox](https://github.com/MatsuriDayo/NekoBoxForAndroid), proxifier for Android, [SocksDroid](https://github.com/bndeff/socksdroid) (требуется Android 5.0+), [SocksTun](https://github.com/heiher/sockstun), для старых версий Андроид ProxyDroid (требуется рут).
 
