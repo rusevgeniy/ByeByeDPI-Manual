@@ -31,7 +31,7 @@ Since ByeByeDPI operates differently from VPNs, the application **requires some 
 
 ### <a id="before-setting">Before adjusting the settings</a>
 
-ISPs may [hijack DNS](https://en.wikipedia.org/wiki/DNS_hijacking) requests, so you need to configure DNS request encryption on your system. Starting with version 9, Android supports only [DNS over TLS](https://en.wikipedia.org/wiki/DNS_over_TLS)(DoT) at the system level. at the system level. To use DNS over HTTPS (DoH), DNS over Quic (DoQ), or other methods, third-party solutions are required.
+ISPs may [hijack DNS](https://en.wikipedia.org/wiki/DNS_hijacking) requests, so you need to configure DNS request encryption on your system. Starting with version 9, Android supports only [DNS over TLS](https://en.wikipedia.org/wiki/DNS_over_TLS) (DoT) at the system level. at the system level. To use DNS over HTTPS (DoH), DNS over Quic (DoQ), or other methods, third-party solutions are required.
 
 > [!TIP]
 > It’s recommended to test DNS using tools like _DNS Jumper_ and _GRC's DNS Benchmark_.
