@@ -18,8 +18,9 @@ _А если всё-таки очень хочется получить дост
 
 - [Видео с канала Мой Компьютер](https://www.youtube.com/watch?v=vZhU7nrWRLc)
 - [Интервью с ValdikSS](https://www.youtube.com/watch?v=bZxEU_kvP_I)
-- [Сайт проекта Censorliber](https://zapret.vercel.app/about)
 - [Официальная документация Zapret](https://github.com/bol-van/zapret)
+- [Evolving Censorship Evasion Strategies](https://geneva.cs.umd.edu/papers/geneva_ccs19.pdf)
+- [Censorship research publications](https://ntc.party/c/censorship-research-publications/22)
 
 ## <a id="how-to-use-ByeByeDPI">Как пользоваться ByeByeDPI?</a>
 
