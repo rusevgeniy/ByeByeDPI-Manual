@@ -279,7 +279,7 @@ Example strategy:
 ---
 
 > [!TIP]
-> If you have root access on your device, you can specify the path to the text file with domains.
+> If you have **root** access on your device (or you have accessed the system directories using [Shizuku](https://github.com/RikkaApps/Shizuku) or other means), you can specify the path to the text file with domains.
 > On Android, the app won't have access to all folders. The file should be located at: `/storage/emulated/0/Android/data/io.github.romanvht.byedpi/files/...`
 > The contents of the fake packages can be specified in the same way.
 

@@ -18,8 +18,9 @@ _А если всё-таки очень хочется получить дост
 
 - [Видео с канала Мой Компьютер](https://www.youtube.com/watch?v=vZhU7nrWRLc)
 - [Интервью с ValdikSS](https://www.youtube.com/watch?v=bZxEU_kvP_I)
-- [Сайт проекта Censorliber](https://zapret.vercel.app/about)
 - [Официальная документация Zapret](https://github.com/bol-van/zapret)
+- [Evolving Censorship Evasion Strategies](https://geneva.cs.umd.edu/papers/geneva_ccs19.pdf)
+- [Censorship research publications](https://ntc.party/c/censorship-research-publications/22)
 
 ## <a id="how-to-use-ByeByeDPI">Как пользоваться ByeByeDPI?</a>
 
@@ -40,7 +41,7 @@ _А если всё-таки очень хочется получить дост
 
 ### <a id="before-setting">До настройки</a>
 
-Всё чаще приходят жалобы на [перехват DNS](others.md#перехват-dns). Для обеспечения корректной работы ByeByeDPI авторы данного руководства рекомендуют настроить [DNS over TLS](https://ru.wikipedia.org/wiki/DNS_%D0%BF%D0%BE%D0%B2%D0%B5%D1%80%D1%85_TLS) на уровне всей системы (стоит отметить, что такая возможность есть только на устройствах под управлением Android 9+).
+Всё чаще приходят жалобы на [перехват DNS](https://ru.wikipedia.org/wiki/DNS_hijacking). Чтобы определить какой DNS-сервер вы используете сейчас, откройте этот [сайт](https://browserleaks.com/dns). Для обеспечения корректной работы ByeByeDPI авторы данного руководства рекомендуют настроить [DNS over TLS](https://ru.wikipedia.org/wiki/DNS_%D0%BF%D0%BE%D0%B2%D0%B5%D1%80%D1%85_TLS) на уровне всей системы (стоит отметить, что такая возможность есть только на устройствах под управлением Android 9+).
 
 > [!WARNING]
 > В связи с текущей ситуацией с некоторыми DNS-серверами могут возникать проблемы (как, например, с DNS от Cloudflare). Лучше протестировать DNS самостоятельно при помощи _DNS Jumper_ и _GRC's DNS Benchmark_.
