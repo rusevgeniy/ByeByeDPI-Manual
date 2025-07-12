@@ -122,6 +122,7 @@
 
 - [zapret.installer](https://github.com/Snowy-Fluffy/zapret.installer) от Snowy-Fluffy
 - [zapret-discord-youtube-linux](https://github.com/Sergeydigl3/zapret-discord-youtube-linux) от Sergeydigl3
+- [zapret4rocket](https://github.com/IndeecFOX/zapret4rocket) от IndeecFOX
 - [Byedpi-Setup](https://github.com/fatyzzz/Byedpi-Setup) от fatyzzz
 
 #### Оригинальные утилиты
