@@ -128,9 +128,9 @@
 #### Оригинальные утилиты
 
 - [zapret](https://github.com/bol-van/zapret) от bol-van
-- [zapret в контейнере](https://github.com/vernette/ss-zapret) c Shadowsocks и SOCKS5
+- [zapret в контейнере](https://github.com/vernette/ss-zapret) c Shadowsocks и SOCKS5 от vernette
 - [ByeDPI](https://github.com/hufrea/byedpi) от hufrea
-- [контейнер с ByeDPI](https://hub.docker.com/r/tazihad/byedpi)
+- [контейнер с ByeDPI](https://hub.docker.com/r/tazihad/byedpi) от tazihad
 - [youtubeUnblock](https://github.com/Waujito/youtubeUnblock) от Waujito
 
 #### Инструкции к оригинальным утилитам
@@ -192,7 +192,7 @@
 
 #### Контейнер с ByeDPI
 
-[контейнер с ByeDPI](https://hub.docker.com/r/tazihad/byedpi)
+[контейнер с ByeDPI](https://hub.docker.com/r/tazihad/byedpi) от tazihad
 
 #### Нативная установка
 
