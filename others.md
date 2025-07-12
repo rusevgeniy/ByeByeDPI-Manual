@@ -24,10 +24,8 @@
 
 #### YouTube с патчами
 
-- YouTube ReVanced. [Revanced Manager](https://revanced.net/revanced-manager) - приложение для удобного скачивания и обновления ReVanced и MicroG. [revanced.app](https://revanced.app/) - Официальный сайт ReVanced. Требуется Android 8.0+
+- YouTube ReVanced. [Revanced Manager](https://revanced.app/download) - приложение для удобного скачивания и обновления ReVanced и MicroG. [revanced.app](https://revanced.app/) - Официальный сайт ReVanced. Требуется Android 8.0+
 - YouTube ReVanced Extended - если у вас проблемы с QUIC. Требуется Android 8.0+
-
-##### Для продвинутых
 
 > [!TIP]
 > Для установки YouTube ReVanced и YouTube ReVanced Extended рекомендуется патчить приложение самостоятельно:
@@ -37,7 +35,7 @@
 
 #### NewPipe и его вариации
 
-- [NewPipe](https://github.com/TeamNewPipe/NewPipe/releases) -  клиент для YouTube, который не использует каких-либо библиотек, зависящих от Google. Отсутствует функция авторизации в google аккаунт. Требуется Android 5.0+
+- [NewPipe](https://github.com/TeamNewPipe/NewPipe/releases) - клиент для YouTube, который не использует каких-либо библиотек, зависящих от Google. Отсутствует функция авторизации в google аккаунт. Требуется Android 5.0+
 - [BravePipe](https://github.com/bravenewpipe/NewPipe) - форк NewPipe с поддержкой Sponsorblock, улучшенными фильтрами поиска и сортировки. Есть импорт подписок с помощью Google Takeout. Требуется Android 4.4+ (не проверено)
 - [PipePipe](https://github.com/InfinityLoop1308/PipePipe) - форк NewPipe с большим количеством сервисов, клиентских функций и исправлений ошибок. Требуется Android 5.0+
 - [Tubular](https://github.com/polymorphicshade/Tubular) - форк NewPipe c поддержкой Sponsorblock и ReturnYouTubeDislike. Требуется Android 5.0+
@@ -55,9 +53,9 @@
 > Для работы данных приложений требуются инстансы. Они могут быть заблокированы иначе чем YouTube и требовать [разблокировки](features.md#разблокировать-свои-ресурсы) отдельно.
 
 - [FreeTube Android](https://github.com/MarmadileManteater/FreeTubeAndroid) - клиент YouTube, использующий Invidious API для передачи данных и видео с YouTube. Требуется Android 7.0+
-- [Clipious](https://github.com/lamarios/clipious) - клиент для Invidious, пользовательского интерфейса YouTube, ориентированного на конфиденциальность. Подеррживает Sponsorblock и ReturnYouTubeDislike. Заявлена поддержка интерфеса для **телевизоров**. Требуется Android 4.1+
+- [Clipious](https://github.com/lamarios/clipious) - клиент для Invidious, пользовательского интерфейса YouTube, ориентированного на конфиденциальность. Подеррживает Sponsorblock и ReturnYouTubeDislike. Заявлена поддержка интерфейса для **телевизоров**. Требуется Android 4.1+
 - [LibreTube](https://github.com/libre-tube/LibreTube) - клиент, использующий [API Piped](https://github.com/TeamPiped/Piped) для отображения содержимого каналов и воспроизведения контента, не требует наличия учетной записи YouTube и сервисов Google.
-- [Mini YouTube](https://github.com/monobogdan/selfeco) - клиент YouTube из состава приложений SelfEco. Использует Invidous API. **Требуется Android 2.2+** Также существует [форк](https://github.com/tinelix/selfeco-plus), с заявленной поддержкой HTTP-прокси для YouTube, однако собирать приложение нужно самостоятельно.
+- [Mini YouTube](https://github.com/monobogdan/selfeco) - клиент YouTube из состава приложений SelfEco. Использует Invidous API. **Требуется Android 2.2+**. Также существует [форк](https://github.com/tinelix/selfeco-plus), с заявленной поддержкой HTTP-прокси для YouTube, однако собирать приложение нужно самостоятельно.
 
 #### Ещё варианты
 
@@ -79,7 +77,7 @@
 
 В теории, такие DNS можно установить в ByeByeDPI в формате IPv4 и пропускать трафик к заблокированному ресурсу через ByeByeDPI, но это не сильно рационально. Лучшим вариантом будет установить DoH на уровне браузера. Не стоит использовать такие DNS для всей системы, так как, например, Comss DNS иногда не выдерживает нагрузки и отключается. Если такой DNS будет работать для всей системы - у вас пропадёт интернет.
 
-Вот к чему можно получить доступ, используя  [Comss DNS](https://www.comss.ru/page.php?id=7315): вы можете пользоваться ИИ-сервисами (ChatGPT и Sora, Microsoft Copilot, GitHub Copilot, xAI Grok, Google Gemini и Claude AI), или устанавливать обновления антивирусов, инсайдерские сборки и обновления Windows, а также играть в Brawl Stars и сетевые режимы Doom Eternal в России.
+Вот к чему можно получить доступ, используя [Comss DNS](https://www.comss.ru/page.php?id=7315): вы можете пользоваться ИИ-сервисами (ChatGPT и Sora, Microsoft Copilot, GitHub Copilot, xAI Grok, Google Gemini и Claude AI), или устанавливать обновления антивирусов, инсайдерские сборки и обновления Windows, а также играть в Brawl Stars и сетевые режимы Doom Eternal в России.
 
 ## <a id="other-options">Другие варианты ускорения серверов</a>
 
@@ -320,7 +318,7 @@ launchctl load ~/Library/LaunchAgents/com.user.byedpi.plist
 launchctl start com.user.ciadpi
 ```
 
-Чтобы удалить выполните:
+Чтобы удалить, выполните:
 
 ```
 launchctl unload ~/Library/LaunchAgents/com.user.byedpi.plist
@@ -336,7 +334,7 @@ rm ~/Library/LaunchAgents/com.user.byedpi.plist
 
 Варианты для пользователей iOS:
 
-- Использовать VPN. Не требует особых навыков, услилий и знаний
+- Использовать VPN. Не требует особых навыков, усилий и знаний
 - Раздать доступ к ByeByeDPI с Android-устройства. Данный вариант подойдёт, если есть устройство на Android с настроенным ByeByeDPI. Подробная инструкция [здесь](features.md#раздача-интернета-с-byebyedpi-локальный-прокси)
 - Использовать решения по [обходу DPI на роутере](#other-router)
 - Использовать решения по [обходу DPI на домашнем сервере](#other-home-server) (в качестве сервера может выступать ПК)
