@@ -260,20 +260,23 @@ If you specify a host list before finalizing the group with (_-A_), the strategy
 Example strategy:
 
 ```
--H:roblox.com discord.com discord.gg -d1 -d3+s -s6+s -d9+s -s12+s -d15+s -s20+s -d25+s -s30+s -d35+s -At,r,s -s1 -q1 -At,r,s -s5 -o25000+s -At,r,s -o1 -d1 -r1+s -t10 -b1500 -d3+s -At,r,s -f-1 -r1+s -At,r,s -s1 -o1+s -s-1 -An -Ku -a1 -An
+-H:"roblox.com discord.com discord.gg" -o1+s -d3+s -a2
 ```
+
+> [!NOTE]
+> The brackets are necessary due to the peculiarities of the parsing mechanism.
 
 > [!TIP]
 > It is not necessary to use whitelisting in this mode.
 
 ### ‘Blacklist’ for domains
 
-In some cases, you may need to restrict ByeByeDPI from processing traffic for specific domains, such as `mfa.gov.tr` and `geliyoo.com`. To prevent ByeByeDPI from processing these domains, add them to a separate group at the beginning of the strategy with `-H:mfa.gov.tr geliyoo.com -An`. In simple words, this part means: if the domain is mfa.gov.tr or `geliyoo.com` - do nothing. **It's important** not to forget _-A_ with the right parameter after the list.
+In some cases, you may need to restrict ByeByeDPI from processing traffic for specific domains, such as `mfa.gov.tr` and `geliyoo.com`. To prevent ByeByeDPI from processing these domains, add them to a separate group at the beginning of the strategy with `-H:"mfa.gov.tr geliyoo.com" -An`. In simple words, this part means: if the domain is `mfa.gov.tr` or `geliyoo.com` - do nothing. **It's important** not to forget _-A_ with the right parameter after the list.
 
 Example strategy:
 
 ```
--H:mfa.gov.tr geliyoo.com -An -Ku -a1 -An -d1 -d3+s -s6+s -d9+s -s12+s -d15+s -s20+s -d25+s -s30+s -d35+s -At,r,s -s1 -q1 -At,r,s -s5 -o25000+s -At,r,s -o1 -d1 -r1+s -t10 -b1500 -d3+s -At,r,s -f-1 -r1+s -At,r,s -s1 -o1+s -s-1
+-H:"mfa.gov.tr geliyoo.com" -An -o1+s -d3+s -a2
 ```
 
 ---
