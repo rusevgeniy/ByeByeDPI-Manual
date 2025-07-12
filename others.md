@@ -1,7 +1,7 @@
 # Другое
 
 1. [Клиенты YouTube](#клиенты)
-2. [Про DNS](#dns)
+2. [Проксирующие DNS](#proxy-dns)
 3. [Другие варианты ускорения серверов](#other-options)
      - [На Android](#other-android)
      - [На Windows](#other-windows)
