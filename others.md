@@ -86,6 +86,7 @@
 
 - [ZDT&D Magisk Module](https://github.com/GAME-OVER-op/ZDT-D) от GAME-OVER-op
 - [zapret-magisk](https://github.com/ImMALWARE/zapret-magisk) от ImMALWARE
+- [zaprett](https://github.com/egor-white/zaprett) от egor-white и приложение [zaprett-app](https://github.com/CherretGit/zaprett-app) от CherretGit для работы с ним
 
 ### <a id="other-windows">На Windows</a>
 
