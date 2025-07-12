@@ -67,11 +67,7 @@
 - [PureTuber](https://play.google.com/store/apps/details?id=free.tube.premium.advanced.tuber) – это клиент для YouTube, за основу которого был взят NewPipe. Новый интерфейс и добавлена возможность входа в google-аккаунт. Требуется Android 4.4+
 - [GreenTuber](https://play.google.com/store/apps/details?id=by.green.tuber&hl=en) - YouTube с блокировщиком рекламы. Требуется Android 6.0+
 
-## <a id="dns">Про DNS</a>
-
-**DNS** - это система доменных имен (Domain Name System), с помощью которой любому IP (например, `108.177.119.91`) можно присвоить доменное имя (например, `youtube.com`). DNS имеет собственные сервера и использует иерархическую систему для запросов.
-
-### <a id="proxy-dns">Проксирующие DNS</a>
+## <a id="proxy-dns">Проксирующие DNS</a>
 
 Чтобы использовать некоторые ресурсы, которые заблокированы извне можно использовать проксирующие DNS - они скрывают ваше местоположение от некоторых ресурсов.
 
