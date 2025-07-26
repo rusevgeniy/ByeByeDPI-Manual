@@ -6,13 +6,14 @@
 5. [Экспорт и импорт настроек](#export-import)
 6. [Способы запуска](#launch)
 7. [Режимы VPN и Proxy](#vpn-proxy)
-   - [Режим HTTP-proxy](#http-proxy)
+	- [Режим HTTP-proxy](#http-proxy)
 8. [Точечная маршрутизация сайтов (доменов)](#split-tunneling)
 9. [Раздача интернета с ByeByeDPI](#distribute)
-10. [Автозапуск ByeByeDPI при запуске YouTube](#youtube-autostart)
-11. [Настройки для работы с AdGuard](#adguard)
-12. [Разблокировать свои ресурсы](#my-services)
-13. [Автообновление](#autoupdate)
+10. [Автоматизация](#automation)
+	- [Автозапуск ByeByeDPI при запуске YouTube](#youtube-autostart)
+12. [Настройки для работы с AdGuard](#adguard)
+13. [Разблокировать свои ресурсы](#my-services)
+14. [Автообновление](#autoupdate)
 
 ## <a id="whitelist-blacklist">Белый и чёрный списки</a>
 
@@ -438,7 +439,23 @@ ip устройства также можно узнать в настройка
 - на MacBook - FoXray, [V2RayXS](https://github.com/tzmax/V2RayXS) (для старых маков), [nekoray](https://github.com/Mahdi-zarei/nekoray).
 - на другое Android-устройство - `Happ`, [nekobox](https://github.com/MatsuriDayo/NekoBoxForAndroid), proxifier for Android, [SocksDroid](https://github.com/bndeff/socksdroid) (требуется Android 5.0+), [SocksTun](https://github.com/heiher/sockstun), для старых версий Андроид ProxyDroid (требуется рут).
 
-## <a id="youtube-autostart">Автозапуск ByeByeDPI при запуске YouTube</a>
+## <a id="automation">Автоматизация</a>
+
+По умолчанию `ToggleActivity` поддерживает подключение/отключение ByeByeDPI.
+
+Если [закрепить](#editor) стратегии и дать закреплённым стратегиям [названия](#editor), то `ToggleActivity` будет поддерживать следующие параметры:
+
+| Параметр      | Действие                                  | Тип    |
+| ------------- | ----------------------------------------- | ------ |
+| `strategy`    | Сменить стратегию и подключится           | String |
+| `only_update` | Только обновить стратегию без подключения | Bool   |
+| `only_start`  | Запустить сервис без смены стратегии      | Bool   |
+| `only_stop`   | Остановить сервис без смены стратегии     | Bool   |
+
+> [!TIP]
+> Это может быть полезно для автоматической смены стратегии при подключении к другой сети: например, переключение с Wi-Fi на мобильный интернет или переключение от одного сотового оператора к другому. Сценарии реализуются при помощи специальных приложений, например, при помощи `MacroDroid`.
+
+### <a id="youtube-autostart">Автозапуск ByeByeDPI при запуске YouTube</a>
 
 Встроенной функции запуска ByeByeDPI при запуске каких-либо приложений нет и не планируется, однако данный функционал возможно реализовать при помощи приложения `MacroDroid`.
 
