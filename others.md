@@ -249,7 +249,7 @@ chmod +x ciadpi
 - Запустите
 
 > [!WARNING]
-> [] - квадратные скобочки писать не нужно. Если вы не можете использовать ByeByeDPI - перебирайте стратегии из [списка](ALL.TXT)
+> Аргументы указываются без квадратных скобок. Если стратегия по умолчанию не работает — перебирайте другие из [списка](ALL.TXT)
 
 ```
 ./ciadpi [стратегия, которая работает на телефоне в приложении ByeByeDPI в вашей сети]
@@ -259,47 +259,42 @@ chmod +x ciadpi
 
 > [!CAUTION]
 > На данном этапе установка завершена.
-> Для запуска в следующие разы необходимо указывать полный путь до папки с файлом, например: `/Users/you/apps/byedpi`
+> При последующих запусках необходимо указывать путь до `ciadpi`, например: `/Users/you/apps/byedpi/ciadpi стратегия1`
 
 Чтобы добавить в автозапуск
 
-- Создайте plist-файл для LaunchAgent
-
-Создайте файл .plist в каталоге ~/Library/LaunchAgents/
+- Создайте файл LaunchAgent
 
 ```
-nano ~/Library/LaunchAgents/com.user.byedpi.plist
+nano ~/Library/LaunchAgents/com.user.ciadpi.plist
 ```
 
-- Настройка файла plist. **УКАЖИТЕ ПУТЬ ДО ФАЙЛА ciadpi**
+- Вставьте следующий код, заменив `ПОЛНЫЙ_ПУТЬ` на абсолютный путь до `ciadpi`, и укажите стратегии:
 
 ```
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
 <plist version="1.0">
 <dict>
-  <!-- Unique identifier for your service -->
+  <!-- Уникальный идентификатор службы -->
   <key>Label</key>
-  <string>com.user.byedpi</string>
+  <string>com.user.ciadpi</string>
 
-  <!-- Path to your executable -->
-  <key>Program</key>
-  <string>/УКАЖИТЕ/ПОЛНЫЙ/ПУТЬ/ciadpi</string>
-
-  <!-- Command-line arguments -->
+  <!-- Аргументы запуска -->
   <key>ProgramArguments</key>
   <array>
-    <string>/УКАЖИТЕ/ПОЛНЫЙ/ПУТЬ/ciadpi</string>
-    <string>АРГУМЕНТ СТРАТЕГИИ 1</string>
-    <string>АРГУМЕНТ СТРАТЕГИИ 2</string>
-    <string>ОСТАЛЬНЫЕ АРГУМЕНТЫ ТАКЖЕ ПО ПОРЯДКУ СВЕРХУ ВНИЗ</string>
+    <string>/ПОЛНЫЙ_ПУТЬ/ciadpi</string>
+    <string>аргумент1 (это часть с стратегии с дефисом, например, `-Ku`)</string>
+    <string>аргумент2</string>
+    <!-- При необходимости добавьте другие -->
+    <!-- <string>аргумент</string> -->
   </array>
 
-  <!-- Run at login/startup -->
+  <!-- Запуск при входе в систему -->
   <key>RunAtLoad</key>
   <true/>
 
-  <!-- Keep the process alive if it crashes -->
+  <!-- Перезапуск при падении -->
   <key>KeepAlive</key>
   <true/>
 </dict>
@@ -309,11 +304,11 @@ nano ~/Library/LaunchAgents/com.user.byedpi.plist
 - Исправьте разрешения и загрузите службу
 
 ```
-chmod 644 ~/Library/LaunchAgents/com.user.byedpi.plist
+chmod 644 ~/Library/LaunchAgents/com.user.ciadpi.plist
 ```
 
 ```
-launchctl load ~/Library/LaunchAgents/com.user.byedpi.plist
+launchctl load ~/Library/LaunchAgents/com.user.ciadpi.plist
 ```
 
 ```
@@ -323,11 +318,11 @@ launchctl start com.user.ciadpi
 Чтобы удалить, выполните:
 
 ```
-launchctl unload ~/Library/LaunchAgents/com.user.byedpi.plist
+launchctl unload ~/Library/LaunchAgents/com.user.ciadpi.plist
 ```
 
 ```
-rm ~/Library/LaunchAgents/com.user.byedpi.plist
+rm ~/Library/LaunchAgents/com.user.ciadpi.plist
 ```
 
 ## <a id="other-iphone">На iOS</a>
