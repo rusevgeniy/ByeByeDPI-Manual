@@ -136,7 +136,8 @@
 - [zapret](https://github.com/bol-van/zapret) от bol-van
 - [zapret в контейнере](https://github.com/vernette/ss-zapret) c Shadowsocks и SOCKS5 от vernette
 - [ByeDPI](https://github.com/hufrea/byedpi) от hufrea
-- [контейнер с ByeDPI](https://hub.docker.com/r/tazihad/byedpi) от tazihad
+- [контейнер с ByeDPI](https://github.com/hufrea/byedpi/tree/main/dist/docker) (официальный)
+- [контейнер с ByeDPI](https://hub.docker.com/r/tazihad/byedpi) (неофициальный) от tazihad
 - [youtubeUnblock](https://github.com/Waujito/youtubeUnblock) от Waujito
 
 #### Инструкции к оригинальным утилитам
@@ -154,13 +155,12 @@
 
 - [Оригинальный zapret](https://github.com/bol-van/zapret/blob/master/docs/quick_start.md)
 - [zapret‐openwrt](https://github.com/remittor/zapret-openwrt) - zapret с интерфейсом
-- [nfqws](https://github.com/Anonym-tsk/nfqws-keenetic) - программа из состава zapret. Есть инструкция для Keenetic / OpenWrt / Netcraze / Padavan
 - [ByeDPI для OpenWrt](https://github.com/spvkgn/ByeDPI-OpenWrt)
 - [ByeDPI + Redsocks](https://habr.com/ru/articles/856312/)
 - [youtubeUnblock](https://lsetc.ru/ustanovka-youtubeunblock-na-openwrt/)
 
 > [!TIP]
-> Можно использовать [пакет ByeDPI](https://github.com/spvkgn/ByeDPI-OpenWrt) в качестве кастомного outbound'a в [podkop](https://github.com/itdoginfo/podkop), чтобы управлять трафиком через sign-box 
+> Можно использовать [пакет ByeDPI](https://github.com/spvkgn/ByeDPI-OpenWrt) в качестве кастомного outbound'a в [podkop](https://github.com/itdoginfo/podkop), чтобы управлять трафиком через sign-box. Гайд можно прочитать [здесь](https://github.com/DPITrickster/Podkop-ByeDPI-OpenWRT)
 
 #### Keenetic
 
@@ -181,7 +181,8 @@
 - [youtubeUnblock на одноплатном компьютере](https://habr.com/ru/articles/871460/)
 - [zapret в контейнере](https://github.com/vernette/ss-zapret) c Shadowsocks и SOCKS5
 - [zapret на одноплатном компьютере](https://habr.com/ru/articles/833508/)
-- [контейнер с ByeDPI](https://hub.docker.com/r/tazihad/byedpi)
+- [контейнер с ByeDPI](https://github.com/hufrea/byedpi/tree/main/dist/docker) (официальный)
+- [контейнер с ByeDPI](https://hub.docker.com/r/tazihad/byedpi) (неофициальный) от tazihad
 - [ByeDPI на Synology](https://bafista.ru/ustanovka-byedpi-v-kontejner-docker-na-synology/) или [ByeDPI на TerraMaster](https://bafista.ru/ustanovka-byedpi-v-kontejner-docker-na-terramaster/)
 
 ### <a id="other-mac">На Mac</a>
