@@ -129,7 +129,7 @@
 #### ByeDPI Containers
 
 - [ByeDPI container](https://github.com/hufrea/byedpi/tree/main/dist/docker) (official)
-- [контейнер с ByeDPI](https://hub.docker.com/r/tazihad/byedpi) (unofficial) by tazihad
+- [ByeDPI container](https://hub.docker.com/r/tazihad/byedpi) (unofficial) by tazihad
 
 #### Native Installation
 
