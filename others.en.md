@@ -91,7 +91,7 @@
 - [youtubeUnblock on OpenWrt](https://github.com/Waujito/youtubeUnblock)
 
 > [!TIP]
-> You can use the [ByeDPI package](https://github.com/spvkgn/ByeDPI-OpenWrt) as a custom outbound proxy in [podkop](https://github.com/itdoginfo/podkop) to control traffic via sign-box. The guide can be read [here](https://github.com/StressOzz/Podkop-ByeDPI-OpenWRT).
+> You can use the [ByeDPI package](https://github.com/spvkgn/ByeDPI-OpenWrt) as a custom outbound proxy in [podkop](https://github.com/itdoginfo/podkop) to control traffic via sign-box. The guide can be read [here](https://github.com/StressOzz/Podkop-ByeDPI-OpenWRT/blob/main/readme.en.md).
 
 #### Keenetic
 
