@@ -22,6 +22,9 @@ You can learn more about blocking mechanisms here:
 
 To get started, you need to download the app. The application uses the standard filename extension `apk`.
 
+> [!NOTE]
+> The releases contain files for different architectures. If you do not know your processor architecture, download `universal`.
+
 > [!WARNING]
 > The application is **completely free**. The author is not responsible if you transfer money to third parties for the application. The developer is also not responsible for versions downloaded from unofficial sources.
 > You should **download** the application **only** from the official repository:  
