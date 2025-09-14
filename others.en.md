@@ -268,7 +268,12 @@ rm ~/Library/LaunchAgents/com.user.ciadpi.plist
 
 ## <a id="other-iphone">iOS</a>
 
-There is currently **no method** for bypassing DPI directly on iOS, and one is unlikely to become available.
+On iOS, there is [Rumble](https://iklassika.ru/app.php?id=5833) — apparently, it is byedpi + hev-socks5-tunnel. The source code is available [here](https://github.com/RumbleOrg/Rumble). This application can only be installed if you have a developer certificate.
+
+> One known issue is that the connect button sometimes fails; deleting the VPN application profile helps.
+
+> [!CAUTION]
+> There is no reliable information about the security of **Rumble**. Install the application at your own risk.
 
 ### Options for iOS users:
 
