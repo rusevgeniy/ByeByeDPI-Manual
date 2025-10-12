@@ -155,12 +155,12 @@
 
 - [Оригинальный zapret](https://github.com/bol-van/zapret/blob/master/docs/quick_start.md)
 - [zapret‐openwrt](https://github.com/remittor/zapret-openwrt) - zapret с интерфейсом
-- [ByeDPI для OpenWrt](https://github.com/spvkgn/ByeDPI-OpenWrt)
+- [ByeDPI для OpenWrt](https://github.com/DPITrickster/ByeDPI-OpenWrt)
 - [ByeDPI + Redsocks](https://habr.com/ru/articles/856312/)
 - [youtubeUnblock](https://lsetc.ru/ustanovka-youtubeunblock-na-openwrt/)
 
 > [!TIP]
-> Можно использовать [пакет ByeDPI](https://github.com/spvkgn/ByeDPI-OpenWrt) в качестве кастомного outbound'a в [podkop](https://github.com/itdoginfo/podkop), чтобы управлять трафиком через sign-box. Гайд можно прочитать [здесь](https://github.com/StressOzz/Podkop-ByeDPI-OpenWRT/blob/main/readme.hand.md)
+> Можно использовать [пакет ByeDPI](https://github.com/DPITrickster/ByeDPI-OpenWrt) в качестве кастомного outbound'a в [podkop](https://github.com/itdoginfo/podkop), чтобы управлять трафиком через sign-box. Гайд можно прочитать [здесь](https://github.com/StressOzz/Podkop-ByeDPI-OpenWRT/blob/main/readme.hand.md)
 
 #### Keenetic
 
