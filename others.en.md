@@ -86,12 +86,12 @@
 - [Original zapret ](https://github.com/bol-van/zapret/blob/master/docs/readme.en.md#openwrt)
 - [zapret-openwrt](https://github.com/remittor/zapret-openwrt) — zapret with web interface
 - [nfqws](https://github.com/Anonym-tsk/nfqws-keenetic) — a program based on zapret, with instructions for Keenetic, OpenWrt, Netcraze, and Padavan
-- [ByeDPI for OpenWrt](https://github.com/spvkgn/ByeDPI-OpenWrt)
+- [ByeDPI for OpenWrt](https://github.com/DPITrickster/ByeDPI-OpenWrt)
 - [ByeDPI + Redsocks guide](https://habr.com/ru/articles/856312/)
 - [youtubeUnblock on OpenWrt](https://github.com/Waujito/youtubeUnblock)
 
 > [!TIP]
-> You can use the [ByeDPI package](https://github.com/spvkgn/ByeDPI-OpenWrt) as a custom outbound proxy in [podkop](https://github.com/itdoginfo/podkop) to control traffic via sign-box. The guide can be read [here](https://github.com/StressOzz/Podkop-ByeDPI-OpenWRT/blob/main/readme.en.md).
+> You can use the [ByeDPI package](https://github.com/DPITrickster/ByeDPI-OpenWrt) as a custom outbound proxy in [podkop](https://github.com/itdoginfo/podkop) to control traffic via sign-box. The guide can be read [here](https://github.com/StressOzz/Podkop-ByeDPI-OpenWRT/blob/main/readme.en.md).
 
 #### Keenetic
 
