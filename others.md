@@ -160,7 +160,7 @@
 - [youtubeUnblock](https://lsetc.ru/ustanovka-youtubeunblock-na-openwrt/)
 
 > [!TIP]
-> Можно использовать [пакет ByeDPI](https://github.com/spvkgn/ByeDPI-OpenWrt) в качестве кастомного outbound'a в [podkop](https://github.com/itdoginfo/podkop), чтобы управлять трафиком через sign-box. Гайд можно прочитать [здесь](https://github.com/StressOzz/Podkop-ByeDPI-OpenWRT)
+> Можно использовать [пакет ByeDPI](https://github.com/spvkgn/ByeDPI-OpenWrt) в качестве кастомного outbound'a в [podkop](https://github.com/itdoginfo/podkop), чтобы управлять трафиком через sign-box. Гайд можно прочитать [здесь](https://github.com/StressOzz/Podkop-ByeDPI-OpenWRT/blob/main/readme.hand.md)
 
 #### Keenetic
 
