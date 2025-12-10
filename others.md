@@ -331,7 +331,7 @@ rm ~/Library/LaunchAgents/com.user.ciadpi.plist
 
 ## <a id="other-iphone">На iOS</a>
 
-На iOS есть [Rumble](https://iklassika.ru/app.php?id=5833) - судя по всему, это byedpi + hev-socks5-tunnel. Исходный код находится [здесь](https://github.com/RumbleOrg/Rumble). Установить данное приложение можно только при наличии сертификата разработчика.
+На iOS есть Rumble - судя по всему, это byedpi + hev-socks5-tunnel. Исходный код находится [здесь](https://github.com/RumbleOrg/Rumble). Для использования его необходимо собрать (требуется сертификат разработчика).
 
 > Из известных проблем пока что отваливающаяся кнопка подключения, помогает удаление профиля VPN приложения.
 
