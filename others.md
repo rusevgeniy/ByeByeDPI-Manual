@@ -200,7 +200,8 @@
 
 #### Контейнер с ByeDPI
 
-[контейнер с ByeDPI](https://hub.docker.com/r/tazihad/byedpi) от tazihad
+- [контейнер с ByeDPI](https://github.com/hufrea/byedpi/tree/main/dist/docker) (официальный)
+- [контейнер с ByeDPI](https://hub.docker.com/r/tazihad/byedpi) (неофициальный) от tazihad
 
 #### Нативная установка
 
