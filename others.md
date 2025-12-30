@@ -8,6 +8,7 @@
      - [На Linux](#other-linux)
      - [На роутере](#other-router)
      - [На домашнем сервере (постоянно включенном устройстве)](#other-home-server)
+     - [На сервере](#other-vps)
      - [На Mac](#other-mac)
      - [На iOS](#other-iphone)
 4. ["Стандартный редактор" - нужен ли?](#ui-editor)
@@ -134,11 +135,27 @@
 
 #### Оригинальные утилиты
 
+##### zapret
+
 - [zapret](https://github.com/bol-van/zapret) от bol-van
 - [zapret в контейнере](https://github.com/vernette/ss-zapret) c Shadowsocks и SOCKS5 от vernette
+
+##### zapret2
+
+- [zapret2](https://github.com/bol-van/zapret2/tree/master) от bol-van
+
+##### byedpi
+
 - [ByeDPI](https://github.com/hufrea/byedpi) от hufrea
 - [контейнер с ByeDPI](https://github.com/hufrea/byedpi/tree/main/dist/docker) (официальный)
 - [контейнер с ByeDPI](https://hub.docker.com/r/tazihad/byedpi) (неофициальный) от tazihad
+
+##### B4
+
+- [B4](https://github.com/DanielLavrushin/b4) от DanielLavrushin
+
+##### youtubeUnblock
+
 - [youtubeUnblock](https://github.com/Waujito/youtubeUnblock) от Waujito
 
 #### Инструкции к оригинальным утилитам
@@ -147,27 +164,44 @@
 > В ByeDPI нет подбора стратегий - найти рабочую стратегию необходимо самостоятельно (например, при помощи подбора в ByeByeDPI).
 
 - [zapret](https://github.com/bol-van/zapret?tab=readme-ov-file#%D0%B1%D1%8B%D1%81%D1%82%D1%80%D1%8B%D0%B9-%D1%81%D1%82%D0%B0%D1%80%D1%82)
-- [zapret](https://www.youtube.com/watch?v=FdDC9R7gL-Y&t=53s) видеоинструкция
 - [ByeDPI](https://github.com/hufrea/byedpi/tree/main/dist/linux)
 
 ### <a id="other-router">На роутере</a>
 
 #### OpenWrt
 
+##### zapret
+
 - [Оригинальный zapret](https://github.com/bol-van/zapret/blob/master/docs/quick_start.md)
 - [zapret‐openwrt](https://github.com/remittor/zapret-openwrt) - zapret с интерфейсом
+
+##### zapret2
+
+- [Оригинальный zapret2](https://github.com/bol-van/zapret2/tree/master)
+- [zapret2 от RouteRich](https://github.com/routerich/packages.routerich) **подходит только для aarch64_cortex-a53** - zapret2 с интерфейсом. Информация о пакете и его использовании в группе RouteRich в telegram
+
+##### byedpi
+
 - [ByeDPI для OpenWrt](https://github.com/DPITrickster/ByeDPI-OpenWrt)
 - [ByeDPI + Redsocks](https://habr.com/ru/articles/856312/)
+
+##### youtubeUnblock
+
 - [youtubeUnblock](https://lsetc.ru/ustanovka-youtubeunblock-na-openwrt/)
 
+##### B4
+
+- [B4](https://github.com/DanielLavrushin/b4) от DanielLavrushin
+
 > [!TIP]
-> Можно использовать [пакет ByeDPI](https://github.com/DPITrickster/ByeDPI-OpenWrt) в качестве кастомного outbound'a в [podkop](https://github.com/itdoginfo/podkop), чтобы управлять трафиком через sign-box. Гайд можно прочитать [здесь](https://github.com/StressOzz/Podkop-ByeDPI-OpenWRT/blob/main/readme.hand.md)
+> Можно использовать [пакет ByeDPI](https://github.com/DPITrickster/ByeDPI-OpenWrt) в качестве кастомного outbound'a в [podkop](https://github.com/itdoginfo/podkop), чтобы управлять трафиком через sign-box. Гайд можно прочитать [здесь](https://github.com/DPITrickster/Podkop-ByeDPI-OpenWRT)
 
 #### Keenetic
 
 - [nfqws](https://github.com/Anonym-tsk/nfqws-keenetic) - программа из состава zapret. Есть инструкция для Keenetic / OpenWrt / Netcraze / Padavan
 - [zapret](https://github.com/AlexFBG/zapret)
 - [nfqws](https://habr.com/ru/articles/834826/) - программа из состава zapret. Инструкция для Keenetic
+- [B4](https://github.com/DanielLavrushin/b4) от DanielLavrushin
 
 #### MikroTik
 
@@ -177,15 +211,30 @@
 
 ### <a id="other-home-server">На домашнем сервере (постоянно включенном устройстве)</a>
 
+##### byedpi
+
 - Можно подключаться к ByeDPI, который будет развёрнут на вашем ПК
 - [Можно подключаться](features.md#distribute) к телефону, на котором запущен ByeByeDPI
 - [ByeDPI на одноплатном компьютере](https://habr.com/ru/articles/870254/)
-- [youtubeUnblock на одноплатном компьютере](https://habr.com/ru/articles/871460/)
-- [zapret в контейнере](https://github.com/vernette/ss-zapret) c Shadowsocks и SOCKS5
-- [zapret на одноплатном компьютере](https://habr.com/ru/articles/833508/)
 - [контейнер с ByeDPI](https://github.com/hufrea/byedpi/tree/main/dist/docker) (официальный)
 - [контейнер с ByeDPI](https://hub.docker.com/r/tazihad/byedpi) (неофициальный) от tazihad
 - [ByeDPI на Synology](https://bafista.ru/ustanovka-byedpi-v-kontejner-docker-na-synology/) или [ByeDPI на TerraMaster](https://bafista.ru/ustanovka-byedpi-v-kontejner-docker-na-terramaster/)
+
+##### youtubeUnblock
+
+- [youtubeUnblock на одноплатном компьютере](https://habr.com/ru/articles/871460/)
+
+##### zapret
+
+- [zapret в контейнере](https://github.com/vernette/ss-zapret) c Shadowsocks и SOCKS5
+- [zapret на одноплатном компьютере](https://habr.com/ru/articles/833508/)
+
+### <a id="other-vps">На сервере</a>
+
+- [zapret](https://github.com/bol-van/zapret) от bol-van
+- [zapret2](https://github.com/bol-van/zapret2/tree/master) от bol-van
+- [zapret в контейнере](https://github.com/vernette/ss-zapret) c Shadowsocks и SOCKS5 от vernette
+- [zapret4rocket](https://github.com/IndeecFOX/zapret4rocket) от IndeecFOX
 
 ### <a id="other-mac">На Mac</a>
 
@@ -349,7 +398,7 @@ rm ~/Library/LaunchAgents/com.user.ciadpi.plist
 > [!NOTE]
 > Если приобрести белый IP у провайдера, то можно будет настроить VPN-туннель до роутера и выходит в интернет с телефона через роутер с настроенным средством обхода
 
-## <a id="ui-editor">Стандартный редактор" - нужен ли?</a>
+## <a id="ui-editor">"Стандартный редактор" - нужен ли?</a>
 
 Чтобы разрабатывать стратегию (а настройки в графическом редакторе это и есть данный процесс), необходимо разбираться в работе сетей и понимать за что отвечает каждый пункт настроек досконально изучив [документацию](https://github.com/hufrea/byedpi). Тем, кто изучил документацию, не нужен графический редактор, потому что он не отображает всех аргументов, а делает это лишь частично.
 
