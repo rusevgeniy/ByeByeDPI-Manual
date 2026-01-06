@@ -200,9 +200,10 @@
 #### Keenetic
 
 - [nfqws](https://github.com/Anonym-tsk/nfqws-keenetic) - программа из состава zapret. Есть инструкция для Keenetic / OpenWrt / Netcraze / Padavan
+- [B4](https://github.com/DanielLavrushin/b4) от DanielLavrushin
+- [youtubeUnblock](https://github.com/Waujito/youtubeUnblock?tab=readme-ov-file#entware) от Waujito
 - [zapret](https://github.com/AlexFBG/zapret)
 - [nfqws](https://habr.com/ru/articles/834826/) - программа из состава zapret. Инструкция для Keenetic
-- [B4](https://github.com/DanielLavrushin/b4) от DanielLavrushin
 
 #### MikroTik
 
