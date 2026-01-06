@@ -96,6 +96,10 @@
 - [zapret-magisk](https://github.com/ImMALWARE/zapret-magisk) от ImMALWARE
 - [zaprett](https://github.com/egor-white/zaprett) от egor-white и приложение [zaprett-app](https://github.com/CherretGit/zaprett-app) от CherretGit для работы с ним
 
+#### NoDPI4Android
+
+- [NoDPI4Android](https://github.com/GVCoder09/NoDPI4Android) от GVCoder09
+
 ### <a id="other-windows">На Windows</a>
 
 #### Сборки zapret
@@ -112,6 +116,7 @@
 
 - [zapret](https://github.com/bol-van/zapret) от bol-van
 - [ByeDPI](https://github.com/hufrea/byedpi) от hufrea (в теории версия [byedpi-x86-cygwin.zip](https://github.com/hufrea/byedpi/issues/219#issuecomment-2559707231) способна работать даже на Windows XP)
+- [NoDPI](https://github.com/GVCoder09/NoDPI) от GVCoder09
 
 #### Инструкции к оригинальным утилитам
 
@@ -158,6 +163,10 @@
 ##### youtubeUnblock
 
 - [youtubeUnblock](https://github.com/Waujito/youtubeUnblock) от Waujito
+
+##### NoDPI
+
+- [NoDPI](https://github.com/GVCoder09/NoDPI) от GVCoder09
 
 #### Инструкции к оригинальным утилитам
 
@@ -245,18 +254,17 @@
 > [!CAUTION]
 > Выполняйте инструкции на свой страх и риск!
 
-> [!TIP]
-> Настроить ByeDPI проще. Как в варианте с контейнером, так и в варианте с нативной установкой.
-
 - [ByeDPI](https://github.com/hufrea/byedpi) от hufrea
 - [zapret](https://github.com/bol-van/zapret/blob/master/docs/bsd.md#macos) от bol-van
+- [NoDPI](https://github.com/GVCoder09/NoDPI) от GVCoder09
 
-#### Контейнер с ByeDPI
+#### Контейнеры
 
 - [контейнер с ByeDPI](https://github.com/hufrea/byedpi/tree/main/dist/docker) (официальный)
 - [контейнер с ByeDPI](https://hub.docker.com/r/tazihad/byedpi) (неофициальный) от tazihad
+- [контейнер с NoDPI](https://github.com/GVCoder09/NoDPI?tab=readme-ov-file#run-in-docker) от GVCoder09
 
-#### Нативная установка
+#### Нативная установка ByeDPI
 
 [Инструкция](https://github.com/hufrea/byedpi/tree/main/dist/linux) по установке ByeDPI *на Linux*
 
