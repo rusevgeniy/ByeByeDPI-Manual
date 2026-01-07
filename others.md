@@ -109,7 +109,7 @@
 #### Приложения с графическим интерфейсом
 
 - [CDPI UI](https://github.com/Storik4pro/cdpiui) от Storik4pro. Менеджер для популярных утилит модификации трафика.
-- [ByeDPI Manager](https://github.com/romanvht/bdmanager) от romanvht. Небольшая утилита, упрощающая работу с ByeDPI на Windows (подходит для некоторых версий Windows 7).
+- [ByeDPI Manager](https://github.com/romanvht/bdmanager) от romanvht. Небольшая утилита, упрощающая работу с ByeDPI на Windows (подходит [для Windows 7](https://github.com/BDManual/ByeDPIManager-Manual/blob/main/win7.md)).
 - [goodbyeDPI-UI](https://github.com/Storik4pro/goodbyeDPI-UI) от Storik4pro. Комбайн для zapret, ByeDPI, GoodbyeDPI и SpoofDPI.
 
 #### Оригинальные утилиты
