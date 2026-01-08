@@ -157,6 +157,7 @@
 - [byedpictl](https://github.com/maximilionus/byedpictl) от maximilionus. Небольшая утилита для управления ByeDPI. Также содержит HevSocks5Tunnel.
 - [контейнер с ByeDPI](https://github.com/hufrea/byedpi/tree/main/dist/docker) (официальный)
 - [контейнер с ByeDPI](https://hub.docker.com/r/tazihad/byedpi) (неофициальный) от tazihad
+- [контейнер с ByeDPI с автоподбором стратегий](https://hub.docker.com/r/vindibona/byedpi-orchestrator) от vindibona
 
 ##### B4
 
@@ -223,6 +224,7 @@
 - [ByeDPI](https://habr.com/ru/articles/838452/) - статья с инструкцией
 - [Контейнеры](https://hub.docker.com/u/wiktorbgu) с tpws из состава zapret и ByeDPI. В tpws нет возможности использовать UDP
 - [Контейнер с nfqws](https://gist.github.com/wiktorbgu/b27828bc789d9e751c18503d0ee86675) из состава zapret
+- [контейнер с ByeDPI с автоподбором стратегий](https://hub.docker.com/r/vindibona/byedpi-orchestrator) от vindibona
 
 ### <a id="other-home-server">На домашнем сервере (постоянно включенном устройстве)</a>
 
