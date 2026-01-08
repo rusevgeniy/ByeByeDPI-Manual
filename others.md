@@ -186,10 +186,12 @@
 
 - [Оригинальный zapret](https://github.com/bol-van/zapret/blob/master/docs/quick_start.md)
 - [zapret‐openwrt](https://github.com/remittor/zapret-openwrt) - zapret с интерфейсом
+- [Пакет zapret](https://github.com/spvkgn/zapret-openwrt) от spvkgn собранный под OpenWrt
 
 ##### zapret2
 
 - [Оригинальный zapret2](https://github.com/bol-van/zapret2/tree/master)
+- [Пакет zapret2](https://github.com/spvkgn/zapret2-openwrt) от spvkgn собранный под OpenWrt
 - [zapret2 от RouteRich](https://github.com/routerich/packages.routerich) **подходит только для aarch64_cortex-a53** - zapret2 с интерфейсом. Информация о пакете и его использовании в группе RouteRich в telegram
 
 ##### byedpi
