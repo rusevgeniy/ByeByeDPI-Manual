@@ -154,6 +154,7 @@
 ##### byedpi
 
 - [ByeDPI](https://github.com/hufrea/byedpi) от hufrea
+- [byedpictl](https://github.com/maximilionus/byedpictl) от maximilionus. Небольшая утилита для управления ByeDPI. Также содержит HevSocks5Tunnel.
 - [контейнер с ByeDPI](https://github.com/hufrea/byedpi/tree/main/dist/docker) (официальный)
 - [контейнер с ByeDPI](https://hub.docker.com/r/tazihad/byedpi) (неофициальный) от tazihad
 
