@@ -63,6 +63,7 @@
 
 - [VueTube](https://github.com/pixkk/VueTube) - клиент YouTube построенный на базе Vue. Есть поддержка Sponsorblock и ReturnYouTubeDislike. Требуется Android 5.0+ (возможно не поддерживается Android 12.1+)
 - [Namida](https://github.com/namidaco/namida) - красивый и многофункциональный проигрыватель музыки и видео с поддержкой YouTube.
+- [YT PRO](https://github.com/prateek-chaubey/YTPro) - легковесный парсер/оболочка m.youtube.com с продвинутыми функциями. Требуется Android 5.0+
 
 #### Проприетарные программы
 
