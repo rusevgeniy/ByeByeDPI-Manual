@@ -228,9 +228,14 @@
 #### MikroTik
 
 - [ByeDPI](https://habr.com/ru/articles/838452/) - статья с инструкцией
-- [Контейнеры](https://hub.docker.com/u/wiktorbgu) с tpws из состава zapret и ByeDPI. В tpws нет возможности использовать UDP
-- [Контейнер с nfqws](https://gist.github.com/wiktorbgu/b27828bc789d9e751c18503d0ee86675) из состава zapret
+- [Контейнеры](https://hub.docker.com/u/wiktorbgu) с tpws из состава zapret и ByeDPI от wiktorbgu. В tpws нет возможности использовать UDP
 - [контейнер с ByeDPI с автоподбором стратегий](https://hub.docker.com/r/vindibona/byedpi-orchestrator) от vindibona
+
+> [!WARNING]
+> Необходимая [информация](https://gist.github.com/wiktorbgu/b27828bc789d9e751c18503d0ee86675) о запуске nfqws1 и nfqws2 на MikroTik
+
+- [Контейнер с nfqws1 из zapret1](https://hub.docker.com/r/wiktorbgu/nfqws-mikrotik) от wiktorbgu
+- [Контейнер с nfqws2 из zapret2](https://hub.docker.com/r/wiktorbgu/nfqws2-mikrotik) от wiktorbgu
 
 ### <a id="other-home-server">На домашнем сервере (постоянно включенном устройстве)</a>
 
