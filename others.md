@@ -27,12 +27,14 @@
 #### YouTube с патчами
 
 - YouTube ReVanced. [Revanced Manager](https://revanced.app/download) - приложение для удобного скачивания и обновления ReVanced и MicroG. [revanced.app](https://revanced.app/) - Официальный сайт ReVanced. Требуется Android 8.0+
+- [Morphe](https://morphe.software/) - альтернативный проект патчей ReVanced. От разработчиков, создавших модификации YouTube и YT Music. Требуется Android 9.0+
 - YouTube ReVanced Extended - если у вас проблемы с QUIC. Требуется Android 8.0+
 
 > [!TIP]
-> Для установки YouTube ReVanced и YouTube ReVanced Extended рекомендуется патчить приложение самостоятельно:
+> Для установки YouTube ReVanced, Morphe и YouTube ReVanced Extended рекомендуется патчить приложение самостоятельно:
 
 - [YouTube ReVanced Manager](https://github.com/ReVanced/revanced-manager)
+- [Morphe manager](https://github.com/MorpheApp/morphe-manager)
 - [RVX Manager](https://github.com/inotia00/revanced-manager)
 
 #### NewPipe и его вариации
